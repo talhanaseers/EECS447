@@ -1,24 +1,28 @@
 ## Meeting Date: [Date of Meeting]
-**Time:** [Start Time] - [End Time]  
-**Venue:** [Online platform or in-person location]  
+**Time:** [TBD] - [TBD]  
+**Venue:** [TBD]  
 **Attendees:**  
-- [Member 1]  
-- [Member 2]  
-- [Member 3]  
-...
+- [Talha Naseer (Team Leader)]
+- [Muhammad Abdullah]
+- [Deborah Onuosa]
+- [Atharva Patil]
+- [Conner Glazner]
+- [Alec Slavik]  
 
 ### Meeting Purpose:
-[Summary of the meeting's main goal]
+[First Meeting]
 
 ### Key Discussions & Decisions:
-- **[Agenda Item 1]:** [Summary of discussion or decision]
-- **[Agenda Item 2]:** [Summary of discussion or decision]
-...
+- **[Assigning Roles]:** [Summary of discussion or decision]
+- **[Deciding weekly meeting time]:** [Summary of discussion or decision]
+- **[Project Vision/Plan]:** [Summary of discussion or decision]
+- **[Discussing Project Timeline]:** [Summary of discussion or decision]
+
 
 ### Responsibilities Assigned:
-- **[Task 1]:** [Person Responsible]  
-- **[Task 2]:** [Person Responsible]  
-...
+- **[Role 1]:** [Person Responsible]  
+- **[Role 2]:** [Person Responsible]  
+
 
 ### Action Items for Next Meeting:
 - **[Task 1]:** [Expected completion date]
@@ -26,4 +30,33 @@
 
 ---
 
-## [Add logs for future meetings below]
+## Meeting Date: [Date of Meeting]
+**Time:** [TBD] - [TBD]  
+**Venue:** [TBD]  
+**Attendees:**  
+- [Talha Naseer (Team Leader)]
+- [Muhammad Abdullah]
+- [Deborah Onuosa]
+- [Atharva Patil]
+- [Conner Glazner]
+- [Alec Slavik]  
+
+### Meeting Purpose:
+[Second Meeting]
+
+### Key Discussions & Decisions:
+- **[Assigning Roles]:** [Summary of discussion or decision]
+- **[Deciding weekly meeting time]:** [Summary of discussion or decision]
+- **[Project Vision/Plan]:** [Summary of discussion or decision]
+- **[Discussing Project Timeline]:** [Summary of discussion or decision]
+
+
+### Responsibilities Assigned:
+- **[Role 1]:** [Person Responsible]  
+- **[Role 2]:** [Person Responsible]  
+
+
+### Action Items for Next Meeting:
+- **[Task 1]:** [Expected completion date]
+- **[Task 2]:** [Expected completion date]
+
