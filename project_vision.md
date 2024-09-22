@@ -19,7 +19,7 @@ Team member profiles should include:
 - Programming language knowledge  
 Adding photos is recommended for future reference.
 
-Alec Slavik
+Alec Slavik: Project Leader
 - Email: alec.slavik@gmail.com, a551s995@ku.edu
 - Availability: Fridays from 3-4pm
 - Computing platform experience: Visual Studio Code
