@@ -23,7 +23,7 @@ Alec Slavik
 - Email: alec.slavik@gmail.com, a551s995@ku.edu
 - Availability: Fridays from 3-4pm
 - Computing platform experience: Visual Studio Code
-- Programming language knowledge: Python, C, SQL, C++
+- Programming language knowledge: Python, C, SQL, JavaScript
 
 ### 4. Weekly Meetings
 Decide on weekly meeting details:
