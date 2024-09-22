@@ -19,6 +19,13 @@ Team member profiles should include:
 - Programming language knowledge  
 Adding photos is recommended for future reference.
 
+Alec Slavik
+Contact information:
+- Email: alec.slavik@gmail.com, a551s995@ku.edu
+- Availability: Fridays from 3-4pm
+- Computing platform experience: Visual Studio Code
+- Programming language knowledge: Python, C, SQL, C++
+
 ### 4. Weekly Meetings
 Decide on weekly meeting details:
 - Location: Eaton Hall
