@@ -20,6 +20,7 @@ Team member profiles should include:
 Adding photos is recommended for future reference.
 
 Alec Slavik
+
 Contact information:
 - Email: alec.slavik@gmail.com, a551s995@ku.edu
 - Availability: Fridays from 3-4pm
