@@ -21,8 +21,8 @@ Adding photos is recommended for future reference.
 
 ### 4. Weekly Meetings
 Decide on weekly meeting details:
-- Location
-- Schedule
+- Location: Eaton Hall
+- Schedule: Fridays, 2:55pm
 - Methods for task allocation and tracking
 
 **Note:** Each team member must contribute to the project and complete assigned tasks. Regular attendance at team meetings is mandatory. Communication and collaboration are essential for project success. Adhere to project deadlines and guidelines.
