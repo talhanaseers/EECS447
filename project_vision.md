@@ -31,6 +31,12 @@ Adding photos is recommended for future reference.
 - Computing platform experience: Visual Studio Code
 - Programming language knowledge: Python
 
+3-    Conner Glazner: Technical Leader
+- Email: conner.glazner25@ku.edu
+- Availability: Fridays from 3-4pm
+- Computing platform experience: Visual Studio Code, GitHub, Spyder, Linux
+- Programming language knowledge: Python, C, SQL, VHDL
+
 ### 4. Weekly Meetings
 Decide on weekly meeting details:
 - Location: Eaton Hall
