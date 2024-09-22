@@ -10,7 +10,7 @@
 - [Alec Slavik]  
 
 ### Meeting Purpose:
-[First Meeting]
+We decided a common to meet on a campus, Friday 2:55pm.
 
 ### Key Discussions & Decisions:
 - **[Assigning Roles]:** [Summary of discussion or decision]
@@ -20,8 +20,12 @@
 
 
 ### Responsibilities Assigned:
-- **[Role 1]:** [Person Responsible]  
-- **[Role 2]:** [Person Responsible]  
+- **Project Leader:** Alec Slavik
+- **Team Adminstrator:** Talha Naseer
+- **Assistant Team Adminstrator:** Deborah Onuosa
+- **Assistant Project Leader:** Muhammad Abdullah
+- **Technical Leader:** Conner Glazner
+- **Data Adminstrator:** Atharva Patil
 
 
 ### Action Items for Next Meeting:
