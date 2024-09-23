@@ -60,4 +60,4 @@ Decide on weekly meeting details:
 Deborah, as the assistant team adminstrator will be taking the responsibility of marking attendence in the meeting logs.
 
 ### 5. GitHub Repository Management
-Decide on how to manage the team GitHub repository. Ensure all project artifacts are maintained there.
+The team will manage the GitHub repository by organizing project files with a clear folder structure and maintaining up-to-date documentation. A GitFlow branching strategy will be implemented, with separate branches for main, development, and feature work. Each task will be tracked using GitHub Issues, and pull requests will require code reviews before merging. GitHub Actions will automate testing and code quality checks, ensuring smooth collaboration and progress tracking across the team.
