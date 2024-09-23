@@ -57,5 +57,7 @@ Decide on weekly meeting details:
 
 **Note:** Each team member must contribute to the project and complete assigned tasks. Regular attendance at team meetings is mandatory. Communication and collaboration are essential for project success. Adhere to project deadlines and guidelines.
 
+Deborah, as the assistant team adminstrator will be taking the responsibility of marking attendence in the meeting logs.
+
 ### 5. GitHub Repository Management
 Decide on how to manage the team GitHub repository. Ensure all project artifacts are maintained there.
