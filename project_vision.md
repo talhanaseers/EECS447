@@ -53,7 +53,7 @@ This project will involve the design, development, and deployment of a relationa
 Decide on weekly meeting details:
 - Location: Eaton Hall
 - Schedule: Fridays, 2:55pm
-- Methods for task allocation and tracking
+- Methods for task allocation and tracking: Communication over text messages, discord channels, and using GitHub to collaborate, and document progress. 
 
 **Note:** Each team member must contribute to the project and complete assigned tasks. Regular attendance at team meetings is mandatory. Communication and collaboration are essential for project success. Adhere to project deadlines and guidelines.
 
