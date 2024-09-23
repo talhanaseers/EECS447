@@ -1,5 +1,5 @@
 ## Meeting Date: September 22, 2024
-**Time:** [6pm] - [6pm]  
+**Time:** [6pm] - [6:30pm]  
 **Venue:** [Virtual Meeting via Discord]  
 **Attendees:**  (All members were present)
 - [Talha Naseer (Team Leader)]
