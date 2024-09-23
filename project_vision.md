@@ -9,15 +9,6 @@ The goal of the Library Management System is to streamline the management of lib
 This project will involve the design, development, and deployment of a relational database system to manage a library's inventory of books, digital media, and magazines, along with client memberships and borrowing rules. It will include functionalities for tracking item availability, enforcing borrowing limits, calculating late fees, and generating detailed reports, with a focus on multi-user support, transaction management, and role-based access control.
 
 ### 3. Team Organization and Profiles
-Define the team organization and team member profiles. Assign roles for the team members, and designate one member as the team administrator. 
-
-Team member profiles should include:
-- Names
-- Contact information
-- Availability
-- Computing platform experience
-- Programming language knowledge  
-Adding photos is recommended for future reference.
 
 1- Alec Slavik: Project Leader
 - Email: alec.slavik@gmail.com, a551s995@ku.edu
