@@ -37,6 +37,27 @@ Adding photos is recommended for future reference.
 - Computing platform experience: Visual Studio Code, GitHub, Spyder, Linux
 - Programming language knowledge: Python, C, SQL, VHDL
 
+4- Talha Naseer: Team Adminstrator
+-Email: talha.naseer@ku.edu
+-Phone: (913) 222-6315
+-Availability: Details in chart, and Friday 3pm-4pm
+-Computing Platform Experience: VSCode, GitHub, Unix Scripting, Linux, MacOS, Windows
+-Programming Language knowledge: Java, C languages, Python, JavaScript, SQL
+
+5- Atharva Patil: Data Adminstrator
+-Email: atharva.patil@ku.edu
+-Phone: (913) 488-2147
+-Availability: In chart, or after 2:50pm 
+-Computing Platform Experience: Familiar with Visual Studio Code, Excel, Linux
+-Programming Language knowledge: Python, C/C++, Java, JavaScript, SQL
+
+6- Deborah Onuosa: Assistant Team Adminstrator
+-Email: deonuosa2004@ku.edu
+-Phone: (913) 999-1016
+-Availability: Tue 3-6pm, Wed 3-6pm, Thu 3-4pm, Fri 3-6pm
+-Computing Platform Experience: Operating Systems (Linux) and Hardware platforms (Raspberry Pi)
+-Programming Language knowledge: Mainly python, C, SQL
+
 ### 4. Weekly Meetings
 Decide on weekly meeting details:
 - Location: Eaton Hall
