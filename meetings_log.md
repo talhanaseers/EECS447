@@ -39,23 +39,21 @@ We worked on Project Part: One
 
 ## Meeting Date: October 4, 2024
 **Time:** 2:55pm - 3:15pm  
-**Venue:** Eaton  
+**Venue:** LEEP2   
 **Attendees:**  
 - [Talha Naseer (Team Leader)]
 - [Muhammad Abdullah]
-- [Deborah Onuosa]
 - [Atharva Patil]
 - [Conner Glazner]
-- [Alec Slavik]  
+- [Alec Slavik]
+
+- [Deborah Onuosa] — Absent due to a tour with Evergy 
 
 ### Meeting Purpose:
-[Second Meeting]
+[Discussed Project Part 2]
 
 ### Key Discussions & Decisions:
-- **[Assigning Roles]:** [Summary of discussion or decision]
-- **[Deciding weekly meeting time]:** [Summary of discussion or decision]
-- **[Project Vision/Plan]:** [Summary of discussion or decision]
-- **[Discussing Project Timeline]:** [Summary of discussion or decision]
+- **[Discussed Project Part 2's description in Canvas]:** Tasks were allocated based on interests
 
 
 ### Responsibilities Assigned:
@@ -66,4 +64,35 @@ We worked on Project Part: One
 ### Action Items for Next Meeting:
 - **[Task 1]:** [Expected completion date]
 - **[Task 2]:** [Expected completion date]
+
+---
+
+## Meeting Date: October 11, 2024
+**Time:** 2:55pm - 3:15pm  
+**Venue:** LEEP2   
+**Attendees:**  
+- [Talha Naseer (Team Leader)]
+- [Muhammad Abdullah]
+- [Deborah Onuosa]
+- [Atharva Patil]
+- [Conner Glazner]
+- [Alec Slavik]
+
+
+### Meeting Purpose:
+[Project Part 2 compeletion and submission]
+
+### Key Discussions & Decisions:
+- **[Discussion 1]:** [Summary]
+
+
+### Responsibilities Assigned:
+- **[Role 1]:** [Person Responsible]  
+- **[Role 2]:** [Person Responsible]  
+
+
+### Action Items for Next Meeting:
+- **[Task 1]:** [Expected completion date]
+- **[Task 2]:** [Expected completion date]
+
 
