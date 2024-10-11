@@ -92,8 +92,10 @@ We worked on Project Part: One
 
 
 ### Responsibilities Assigned:
-- **[Role 1]:** [Person Responsible]  
-- **[Role 2]:** [Person Responsible]  
+- **[ER Modeling]:** [Atharva Patil]  
+- **[ER Model validation]:** [Conner Glazner]
+- **[ER Diagram]:** [Talha Naseer]
+  
 
 
 ### Action Items for Next Meeting:
