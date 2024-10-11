@@ -41,11 +41,11 @@ We worked on Project Part: One
 **Time:** 2:55pm - 3:15pm  
 **Venue:** LEEP2, Floor 2 lobby   
 **Attendees:**  
-- [Talha Naseer (Team Leader)]
-- [Muhammad Abdullah]
-- [Atharva Patil]
-- [Conner Glazner]
-- [Alec Slavik]
+- [Talha Naseer (Team Leader)] — Present
+- [Muhammad Abdullah] — Present
+- [Atharva Patil] — Present
+- [Conner Glazner] — Present
+- [Alec Slavik] — Present
 
 - [Deborah Onuosa] — Absent due to a tour with Evergy 
 
@@ -67,10 +67,10 @@ We worked on Project Part: One
 **Time:** 2:55pm - 3:15pm  
 **Venue:** LEEP2, Room 2320   
 **Attendees:**  
-- [Talha Naseer (Team Leader)]
-- [Deborah Onuosa]
-- [Atharva Patil]
-- [Conner Glazner]
+- [Talha Naseer (Team Leader)] — Present
+- [Deborah Onuosa] — Present
+- [Atharva Patil] — Present
+- [Conner Glazner] — Present
 
 - [Muhammad Abdullah] — Absent due to a Watkins appointment time conflict
 - [Alec Slavik] — Absent due to travel commitments out of town
