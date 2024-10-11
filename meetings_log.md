@@ -91,12 +91,15 @@ We worked on Project Part: One
 - **[ER Modeling]:** [Atharva Patil]  
 - **[ER Model validation]:** [Conner Glazner]
 - **[ER Diagram]:** [Talha Naseer]
+- **[Introduction]:** [Deborah Onuosa]
   
 
 
 ### Action Items for Next Meeting:
-- **[Task 1]:** [Expected completion date]
-- **[Task 2]:** [Expected completion date]
+- **[ER Modeling]:** [Expected completion date — October 18]  
+- **[ER Model validation]:** [Expected completion date — October 18]  
+- **[ER Diagram]:** [Expected completion date — October 18]  
+- **[Introduction]:** [Expected completion date — October 18]  
 
 ---
 
