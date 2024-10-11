@@ -62,7 +62,7 @@ We worked on Project Part: One
 
 
 ### Action Items for Next Meeting:
-- **[Task 1]:** [Expected completion date]
+- **[Develop a comprehensive Entity-Relationship Diagram]:** [Expected completion date — October 19 2024]
 - **[Task 2]:** [Expected completion date]
 
 ---
