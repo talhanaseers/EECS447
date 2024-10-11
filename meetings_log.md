@@ -56,10 +56,6 @@ We worked on Project Part: One
 - **[Discussed Project Part 2's description in Canvas]:** Tasks were allocated based on interests
 
 
-### Responsibilities Assigned:
-- **[Role 1]:** [Person Responsible]  
-- **[Role 2]:** [Person Responsible]  
-
 
 ### Action Items for Next Meeting:
 - **[Develop a comprehensive Entity-Relationship Diagram]:** [Expected completion date — October 19 2024]
