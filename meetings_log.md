@@ -84,7 +84,11 @@ We worked on Project Part: One
 [Project Part 2 compeletion, finalization and submission]
 
 ### Key Discussions & Decisions:
-- **[Discussion 1]:** [Summary]
+- **[Discussed Stakeholders]:** [Library Administrators, Library Members, System Administrators were decided as key stakeholders]
+- **[Discussed Requirements]:** [Discussed and finalized both functional and non-functional requirements]
+- **[Discussed Data Requirements]:** [Declared data entities and their attributes]
+- **[Discussed User Requirements]:** [Discussed and finalized admin user and member user requirements]
+- **[Discussed Hardware and Software Requirements]:** [Finalized hardware for servers, finalized operating systems, database management system, and development tools]
 
 
 ### Responsibilities Assigned:
