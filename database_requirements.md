@@ -1,5 +1,3 @@
-### Feel free to modify contents of this file for Project Part 2
-
 # Library Management System - Database Requirements Document
 
 ## Tasks
