@@ -3,17 +3,22 @@
 ## 1. Introduction
 
 ### Project Overview
-The Library Management System (LMS) database is designed to effectively manage the library's inventory of books, digital media, and magazines while also overseeing client memberships and borrowing activities. It enables efficient tracking of item availability, enforcement of borrowing limits, late fee calculation, and comprehensive reporting functionalities.
+The Library Management System database is designed to efficiently manage a library's inventory, including books, digital media, and magazines, while tracking client memberships and borrowing activities. The system facilitates the availability of resources, borrowing rules, and calculates late fees. It also supports generating reports for administrators to monitor the library's usage and resources. The database ensures smooth multi-user interaction through transaction management and role-based access control, aligning with the system's goal of improving library operations and user satisfaction.
+
 
 ### Scope
-This project encompasses the development of a relational database capable of supporting multi-user operations, transaction management, and role-based access control. It will not address non-library-related resources or financial services beyond the scope of library fees.
+The project will focus on developing a relational database that supports core library functions, such as resource management, user management, and borrowing operations. It will enforce borrowing limits, track overdue items, and apply late fees. Additionally, it will include transaction management and role-based access for different user types (Admins, Members). However, the system will exclude any non-library-related services, such as financial transactions outside of library fees, and will not support resources unrelated to the library's collection.
 
 ### Glossary
-- **Library Resource:** Any item (book, digital media, magazine) available for borrowing.
+- **Library Resource:** Any item available for borrowing, including books, digital media, and magazines.
 - **Borrowing Rules:** Constraints on the number of items a user can borrow and the duration for which they can be borrowed.
 - **Late Fees:** Fines imposed on overdue borrowed items.
 - **User Role:** Specific access level assigned to a user (e.g., Admin, Member).
 - **Transaction Management:** Ensuring reliable application of all database changes in multi-user scenarios.
+- **Admin Users:** Users responsible for managing library resources, user accounts, and generating reports.
+- **Member Users:** End-users who borrow and return resources, manage accounts, and pay any overdue fees.
+- **Resource:** An item in the library collection, such as a book, magazine, or digital media.
+
 
 ---
 
