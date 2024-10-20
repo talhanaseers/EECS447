@@ -103,9 +103,9 @@ We worked on Project Part: One
 
 ---
 
-## Meeting Date: October 18, 2024
-**Time:** 2:55pm - 3:15pm  
-**Venue:** LEEP2   
+## Meeting Date: October 20, 2024
+**Time:** 6:00pm - 6:15pm  
+**Venue:** Dicsord — Virtual Meeting  
 **Attendees:**  
 - [Talha Naseer (Team Leader)]
 - [Muhammad Abdullah]
