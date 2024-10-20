@@ -107,26 +107,64 @@ We worked on Project Part: One
 **Time:** 6:00pm - 6:15pm  
 **Venue:** Dicsord — Virtual Meeting  
 **Attendees:**  
-- [Talha Naseer (Team Leader)]
-- [Muhammad Abdullah]
-- [Deborah Onuosa]
-- [Atharva Patil]
-- [Conner Glazner]
-- [Alec Slavik]
+- [Talha Naseer (Team Leader)] — Present
+- [Deborah Onuosa] — Present
+- [Atharva Patil] — Present
+- [Conner Glazner] — Present
+- [Alec Slavik] — Present
+
+- [Muhammad Abdullah] — Absent due to travel commitments out of town.
 
 
 ### Meeting Purpose:
 [Project Part 3 compeletion and submission]
 
 ### Key Discussions & Decisions:
-- **[Discussion 1]:** [Summary]
-
-
-### Responsibilities Assigned:
-- **[Role 1]:** [Person Responsible]  
-- **[Role 2]:** [Person Responsible]  
+- **[Reviewed & looked for errors]:** Minor modification to the ER Diagram (Relationship between Author and Resources)
 
 
 ### Action Items for Next Meeting:
-- **[Task 1]:** [Expected completion date]
-- **[Task 2]:** [Expected completion date]
+- **[Discuss roles for Part 4]:** [October 25, 2024]
+
+
+---
+
+## Meeting Date: October 25, 2024
+**Time:** 2:55pm - 3:15pm  
+**Venue:** LEEP2, Room 2320   
+**Attendees:**  
+- [Talha Naseer (Team Leader)] — Present
+- [Deborah Onuosa] — Present
+- [Atharva Patil] — Present
+- [Conner Glazner] — Present
+- [Muhammad Abdullah] — Absent due to a Watkins appointment time conflict
+- [Alec Slavik] — Absent due to travel commitments out of town
+
+
+### Meeting Purpose:
+[Project Part 4 related tasks]
+
+### Key Discussions & Decisions:
+- **[Discussed Stakeholders]:** [Library Administrators, Library Members, System Administrators were decided as key stakeholders]
+- **[Discussed Requirements]:** [Discussed and finalized both functional and non-functional requirements]
+- **[Discussed Data Requirements]:** [Declared data entities and their attributes]
+- **[Discussed User Requirements]:** [Discussed and finalized admin user and member user requirements]
+- **[Discussed Hardware and Software Requirements]:** [Finalized hardware for servers, finalized operating systems, database management system, and development tools]
+
+
+### Responsibilities Assigned:
+- **[ER Modeling]:** [Atharva Patil]  
+- **[ER Model validation]:** [Conner Glazner]
+- **[ER Diagram]:** [Talha Naseer]
+- **[Introduction]:** [Deborah Onuosa]
+  
+
+
+### Action Items for Next Meeting:
+- **[ER Modeling]:** [Expected completion date — October 18]  
+- **[ER Model validation]:** [Expected completion date — October 18]  
+- **[ER Diagram]:** [Expected completion date — October 18]  
+- **[Introduction]:** [Expected completion date — October 18]  
+
+---
+
