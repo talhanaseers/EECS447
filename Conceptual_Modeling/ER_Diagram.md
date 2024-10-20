@@ -19,7 +19,7 @@ This project encompasses the development of a relational database capable of sup
 
 ## 2. Review Requirements
 
-The following entities, attributes, and relationships are established based on the previously documented requirements:
+The following entities, attributes, and relationships are established based on the previously documented requirements in database_requirements.md:
 
 ### Entities and Attributes
 1. **User**
@@ -55,12 +55,7 @@ The following entities, attributes, and relationships are established based on t
 
 ---
 
-## 3. Validate Your Model
-
-### Get Ready for ER Modeling
-
-#### Identify Entities
-List all the major entities that will be part of your database. This includes the initial entities in the project description, the ones you identified during the requirements engineering, and the additional ones during your team brainstorming.
+## 3. ER Model
 
 **Major Entities:**
 - User
@@ -69,10 +64,7 @@ List all the major entities that will be part of your database. This includes th
 - Author
 - Publisher
 
-#### Define Attributes
-For each entity, list its attributes and specify the data types or constraints.
-
-**Example:**
+**Example Attributes:**
 - **User**
   - userID (int, Primary Key)
   - name (varchar, Not Null)
@@ -98,8 +90,6 @@ For each entity, list its attributes and specify the data types or constraints.
   - dueDate (date, Not Null)
   - lateFee (decimal)
 
-#### Establish Relationships
-Determine how the entities are related to each other. Define the cardinality (one-to-one, one-to-many, many-to-many) and any constraints.
 
 **Example Relationships:**
 - **User to Borrowing:** One-to-Many (1..N) - A user can borrow multiple resources.
@@ -118,8 +108,4 @@ Determine how the entities are related to each other. Define the cardinality (on
 - **Additional Notes:** 
   - Any updates or revisions will be documented in future versions.
 
----
 
-## 5. GitHub Repository Management
-
-Continue to manage all project artifacts in the GitHub repository. The team leader will submit the repository URL containing this documentation.
