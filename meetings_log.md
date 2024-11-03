@@ -168,3 +168,86 @@ We worked on Project Part: One
 
 ---
 
+## Meeting Date: October 25, 2024
+**Time:** 2:55pm - 3:15pm  
+**Venue:** LEEP2, Room 2320   
+**Attendees:**  
+- [Talha Naseer (Team Leader)] — Present
+- [Deborah Onuosa] — Present
+- [Atharva Patil] — Present
+- [Conner Glazner] — Present
+- [Muhammad Abdullah] — Absent due to a Watkins appointment time conflict
+- [Alec Slavik] — Absent due to travel commitments out of town
+
+
+### Meeting Purpose:
+[Project Part 4 related tasks]
+
+### Key Discussions & Decisions:
+- **[Discussed Stakeholders]:** [Library Administrators, Library Members, System Administrators were decided as key stakeholders]
+- **[Discussed Requirements]:** [Discussed and finalized both functional and non-functional requirements]
+- **[Discussed Data Requirements]:** [Declared data entities and their attributes]
+- **[Discussed User Requirements]:** [Discussed and finalized admin user and member user requirements]
+- **[Discussed Hardware and Software Requirements]:** [Finalized hardware for servers, finalized operating systems, database management system, and development tools]
+
+
+### Responsibilities Assigned:
+- **[ER Modeling]:** [Atharva Patil]  
+- **[ER Model validation]:** [Conner Glazner]
+- **[ER Diagram]:** [Talha Naseer]
+- **[Introduction]:** [Deborah Onuosa]
+  
+
+
+### Action Items for Next Meeting:
+- **[ER Modeling]:** [Expected completion date — October 18]  
+- **[ER Model validation]:** [Expected completion date — October 18]  
+- **[ER Diagram]:** [Expected completion date — October 18]  
+- **[Introduction]:** [Expected completion date — October 18]  
+
+---
+
+## Meeting Date: November 3, 2024
+**Time:** 9pm — Discord Virtual Meeting 
+**Venue:** Discord  
+**Attendees:**  
+- [Talha Naseer (Team Leader)] — Present
+- [Deborah Onuosa] — Present
+- [Atharva Patil] — Present
+- [Conner Glazner] — Present
+- [Muhammad Abdullah] — Present
+- [Alec Slavik] — Present
+
+
+### Meeting Purpose:
+[Project Part 3 resubmission, Project Part 4 finazalization and resubmission]
+
+### Key Discussions & Decisions:
+- **[Discussed Relation Database Schema]:** [Library Administrators, Library Members, System Administrators were decided as key stakeholders]
+- **[Discussed DDL]:** [Discussed and finalized both functional and non-functional requirements]
+- **[Corrections to Part 3 ER Diagram]:** [Declared data entities and their attributes]
+- **[Corrections to Part 3 ER Diagram Documentation]:** [Discussed and finalized admin user and member user requirements]
+
+
+
+### Responsibilities Assigned:
+- **[Schema Documentation — Relation Schema Diagram]:** [Alec Slavik]  
+- **[DDL]:** [Talha Naseer]
+- **[ER Diagram Correction]:** [Talha Naseer]
+- **[Schema Documentation — Data Dictionary]:** [Deborah Onuosa]
+- **[Introduction]:** [Muhammad Abdullah]
+- **[Relational Schema Mapping]:** [Conner Glazner, Atharva Patil]
+
+
+### Action Items for Next Meeting:
+- **[ER Modeling]:** [Expected completion date — October 18]  
+- **[ER Model validation]:** [Expected completion date — October 18]  
+- **[ER Diagram]:** [Expected completion date — October 18]  
+- **[Introduction]:** [Expected completion date — October 18]  
+
+---
+
+
+
+
+
