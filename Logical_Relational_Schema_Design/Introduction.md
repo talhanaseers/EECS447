@@ -21,4 +21,5 @@ This project segment focuses on converting the conceptual ER model into a robust
 - **Role-Based Access Control (RBAC):** Restricts user permissions based on assigned roles, such as Admin or Member.
 - **Constraint:** A rule applied to table attributes, such as NOT NULL or UNIQUE, to enforce data integrity.
 
-
+#### Additional Documentation
+Refer to Additional_Documentation.md within this directory.
