@@ -1,7 +1,7 @@
 ## Schema Documentation
 
 ### Relational Schema Diagram
-The relational schema diagram is a visual representation showing all relations, attributes, primary keys, and foreign keys. (This diagram can be found in this repository with a .png extension.)
+This diagram can be found in this repository with a .png extension.
 
 ### Data Dictionary
 
