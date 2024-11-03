@@ -1,4 +1,4 @@
-## 1. Introduction
+## Introduction
 
 ### Project Overview
 The Library Management System database serves as the backbone for managing various resources within the library, supporting inventory tracking for books, digital media, and magazines. The system manages user roles and borrowing activities, applying late fees where necessary and enabling administrative oversight. With multi-user capabilities, role-based access, and transaction management, this database supports efficient and reliable library operations, aligning with the library’s goal to enhance user engagement and streamline administrative processes.
