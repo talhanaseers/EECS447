@@ -1,4 +1,4 @@
-## Generate DDL
+## Data Definition Language
 
 SQL DDL statements are prepared to create tables in the database, based on the relational schema:
 
