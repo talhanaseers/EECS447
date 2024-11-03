@@ -1,3 +1,5 @@
+#EECS 447 Project Part 4: Logical Relational Schema Design
+
 ## Introduction
 
 ### Project Overview
