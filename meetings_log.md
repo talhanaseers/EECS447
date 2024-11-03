@@ -240,10 +240,8 @@ We worked on Project Part: One
 
 
 ### Action Items for Next Meeting:
-- **[ER Modeling]:** [Expected completion date — October 18]  
-- **[ER Model validation]:** [Expected completion date — October 18]  
-- **[ER Diagram]:** [Expected completion date — October 18]  
-- **[Introduction]:** [Expected completion date — October 18]  
+- **[Task 1]:** TBD
+- **[Task 2]:** TBD  
 
 ---
 
