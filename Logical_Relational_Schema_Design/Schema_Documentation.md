@@ -1,7 +1,7 @@
 ## Schema Documentation
 
 ### Relational Schema Diagram
-This diagram can be found in this repository with a .png extension.
+Refer to Relational_Schema_Diagram.png. This diagram can be found within this repository.
 
 ### Data Dictionary
 
