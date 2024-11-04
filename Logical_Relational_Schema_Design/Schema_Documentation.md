@@ -7,31 +7,38 @@ This diagram can be found in this repository with a .png extension.
 
 The data dictionary documents each relation, its attributes, data types, domains, and constraints, providing a clear reference for developers.
 
-| Relation   | Attribute       | Data Type   | Description                               |
-|------------|-----------------|-------------|-------------------------------------------|
-| **User**   | userID          | INT         | Unique identifier for each user           |
-|            | name            | VARCHAR     | User's name                               |
-|            | role            | ENUM        | Role of the user in the system            |
-|            | email           | VARCHAR     | User's email address                      |
-|            | phone           | VARCHAR     | User's phone number                       |
-| **Resource** | resourceID    | INT         | Unique identifier for each resource       |
-|            | title           | VARCHAR     | Title of the resource                     |
-|            | type            | ENUM        | Type of resource (e.g., Book, Magazine)   |
-|            | authorID        | INT         | Reference to the resource's author        |
-|            | publisherID     | INT         | Reference to the resource's publisher     |
-|            | availableCopies | INT         | Number of copies available for borrowing  |
-|            | totalCopies     | INT         | Total copies of the resource              |
-| **Borrowing** | borrowID     | INT         | Unique identifier for each borrowing event|
-|            | userID          | INT         | Reference to the borrowing user           |
-|            | resourceID      | INT         | Reference to the borrowed resource        |
-|            | borrowDate      | DATE        | Date of borrowing                         |
-|            | returnDate      | DATE        | Date of return                            |
-|            | dueDate         | DATE        | Due date for returning the resource       |
-|            | lateFee         | DECIMAL     | Fee for late returns                      |
-| **Author** | authorID        | INT         | Unique identifier for each author         |
-|            | name            | VARCHAR     | Author's name                             |
-|            | biography       | TEXT        | Information about the author              |
-| **Publisher** | publisherID  | INT         | Unique identifier for each publisher      |
-|            | name            | VARCHAR     | Publisher's name                          |
-|            | address         | VARCHAR     | Publisher's address                       |
-
+| Relation        | Attribute            | Data Type  | Domain                                        | Constraint                                    |
+|-----------------|----------------------|------------|-----------------------------------------------|-----------------------------------------------|
+| **User**        | userID               | INT        | Positive integer                              | Primary Key, Unique, Not Null                 |
+| **User**        | name                 | VARCHAR    | String (1 to 100 characters)                  | Not Null                                      |
+| **User**        | role                 | ENUM       | {'Admin', 'Member'}                           | Not Null                                      |
+| **User**        | email                | VARCHAR    | Valid email format                            | Unique, Not Null                              |
+| **User**        | phone                | VARCHAR    | String (0 to 15 characters)                   | Optional                                      |
+| **User**        | membershipStatus     | ENUM       | {'Active', 'Expired', 'Suspended'}            | Not Null                                      |
+| **User**        | validUntil           | DATE       | Valid date                                    | Not Null                                      |
+| **Resource**    | resourceID           | INT        | Positive integer                              | Primary Key, Unique, Not Null                 |
+| **Resource**    | title                | VARCHAR    | String (1 to 200 characters)                  | Not Null                                      |
+| **Resource**    | type                 | ENUM       | {'Book', 'Magazine', 'Digital Media'}         | Not Null                                      |
+| **Resource**    | authorID             | INT        | Positive integer (exists in Author table)     | Foreign Key (Author.authorID), Not Null       |
+| **Resource**    | publisherID          | INT        | Positive integer (exists in Publisher table)  | Foreign Key (Publisher.publisherID), Not Null |
+| **Resource**    | availableCopies      | INT        | Non-negative integer                          | Not Null                                      |
+| **Resource**    | totalCopies          | INT        | Non-negative integer, >= availableCopies      | Not Null                                      |
+| **Borrowing**   | borrowID             | INT        | Positive integer                              | Primary Key, Unique, Not Null                 |
+| **Borrowing**   | userID               | INT        | Positive integer (exists in User table)       | Foreign Key (User.userID), Not Null           |
+| **Borrowing**   | resourceID           | INT        | Positive integer (exists in Resource table)   | Foreign Key (Resource.resourceID), Not Null   |
+| **Borrowing**   | borrowDate           | DATE       | Valid date                                    | Not Null                                      |
+| **Borrowing**   | returnDate           | DATE       | Valid date or NULL                            | Optional                                      |
+| **Borrowing**   | dueDate              | DATE       | Valid date                                    | Not Null                                      |
+| **Borrowing**   | lateFee              | DECIMAL    | Positive decimal number                       | Calculated                                    |
+| **Author**      | authorID             | INT        | Positive integer                              | Primary Key, Unique, Not Null                 |
+| **Author**      | name                 | VARCHAR    | String (1 to 100 characters)                  | Not Null                                      |
+| **Author**      | biography            | TEXT       | String (up to 5000 characters)                | Optional                                      |
+| **Publisher**   | publisherID          | INT        | Positive integer                              | Primary Key, Unique, Not Null                 |
+| **Publisher**   | name                 | VARCHAR    | String (1 to 100 characters)                  | Not Null                                      |
+| **Publisher**   | address              | VARCHAR    | String (1 to 255 characters)                  | Optional                                      |
+| **FeePolicy**   | policyID             | INT        | Positive integer                              | Primary Key, Unique, Not Null                 |
+| **FeePolicy**   | role                 | ENUM       | {'Admin', 'Member'}                           | Not Null                                      |
+| **FeePolicy**   | baseFee              | DECIMAL    | Positive decimal number                       | Not Null                                      |
+| **FeePolicy**   | maxFee               | DECIMAL    | Positive decimal number                       | Not Null                                      |
+| **ResourceType**| resourceTypeID       | INT        | Positive integer                              | Primary Key, Unique, Not Null                 |
+| **ResourceType**| typeName             | ENUM       | {'Book', 'Magazine', 'Digital'}               | Not Null                                      |
