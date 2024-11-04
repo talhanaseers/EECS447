@@ -7,6 +7,9 @@ For each entity and relationship set in the ER diagram, a corresponding relation
 - **Borrowing**
 - **Author**
 - **Publisher**
+- **FeePolicy**
+- **ResourceType**
+
 
 ### Define Attributes and Domains
 Each attribute in the entity and relationship sets is defined with a corresponding attribute in the appropriate relation, along with data types and domain constraints.
@@ -18,6 +21,8 @@ Each attribute in the entity and relationship sets is defined with a correspondi
 |            | role            | ENUM        | ('Admin', 'Member')            |
 |            | email           | VARCHAR     | Unique, Not Null               |
 |            | phone           | VARCHAR     |                                |
+|            | status          | ENUM        |  ('Active','Expired','Suspended')|
+|            | membershipValidunti | DATE    |                                |
 | **Resource** | resourceID    | INT         | Primary Key                    |
 |            | title           | VARCHAR     | Not Null                       |
 |            | type            | ENUM        | ('Book', 'Magazine', 'Digital Media') |
@@ -32,12 +37,20 @@ Each attribute in the entity and relationship sets is defined with a correspondi
 |            | returnDate      | DATE        |                                |
 |            | dueDate         | DATE        | Not Null                       |
 |            | lateFee         | DECIMAL     | Calculated on overdue returns  |
+|            | policyID        | INT         | Foreign Key                    |
 | **Author** | authorID        | INT         | Primary Key                    |
 |            | name            | VARCHAR     | Not Null                       |
 |            | biography       | TEXT        |                                |
 | **Publisher** | publisherID  | INT         | Primary Key                    |
 |            | name            | VARCHAR     | Not Null                       |
 |            | address         | VARCHAR     |                                |
+| **FeePolicy** | policyID     | INT         | Primary Key                    |
+|            | role            | ENUM        | ('Admin','Member')             |
+|            | baseFee         | DECIMAL     | Not Null                       |
+|         | maxFee          | DECIMAL     | Maximum late fee of a single borrowing transaction|
+| **ResourceType** | TypeID     | INT         | Primary Key                   |
+|            | typeName         | ENUM        | ('Magazine','Digital')        |
+
 
 ### Determine Primary Keys
 Each relation has a unique primary key to identify each tuple in the relation:
@@ -46,6 +59,8 @@ Each relation has a unique primary key to identify each tuple in the relation:
 - **Borrowing:** `borrowID`
 - **Author:** `authorID`
 - **Publisher:** `publisherID`
+- - **ResourceType:** `typeID`
+- **FeePolicy:** `policyID`
 
 ### Establish Foreign Keys
 To maintain referential integrity, foreign key constraints are applied in the corresponding relations:
