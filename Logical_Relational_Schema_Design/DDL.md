@@ -27,25 +27,18 @@ CREATE TABLE Publisher (
 
 CREATE TABLE FeePolicy (
     policyID INT PRIMARY KEY,
-    role ENUM('Admin', 'Member') NOT NULL,
     baseFee DECIMAL(10, 2) NOT NULL,
     maxFee DECIMAL(10, 2) NOT NULL
-);
-
-CREATE TABLE ResourceType (
-    typeID INT PRIMARY KEY,
-    typeName ENUM('Book', 'Magazine', 'Digital Media') NOT NULL
 );
 
 CREATE TABLE Resource (
     resourceID INT PRIMARY KEY,
     title VARCHAR(255) NOT NULL,
-    typeID INT NOT NULL,
+    type ENUM('Book', 'Magazine', 'Digital Media') NOT NULL,
     authorID INT,
     publisherID INT,
     availableCopies INT NOT NULL,
     totalCopies INT NOT NULL,
-    FOREIGN KEY (typeID) REFERENCES ResourceType(typeID),
     FOREIGN KEY (authorID) REFERENCES Author(authorID),
     FOREIGN KEY (publisherID) REFERENCES Publisher(publisherID)
 );
@@ -63,7 +56,6 @@ CREATE TABLE Borrowing (
     FOREIGN KEY (resourceID) REFERENCES Resource(resourceID),
     FOREIGN KEY (policyID) REFERENCES FeePolicy(policyID)
 );
-
 ```
 
 The DDL statements above will create the database schema, defining tables, attributes, data types, primary keys, and foreign keys.
