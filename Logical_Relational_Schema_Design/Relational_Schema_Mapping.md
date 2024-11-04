@@ -68,4 +68,6 @@ To maintain referential integrity, foreign key constraints are applied in the co
 - **Resource.resourceID** is a foreign key in the **Borrowing** relation.
 - **Author.authorID** is a foreign key in the **Resource** relation.
 - **Publisher.publisherID** is a foreign key in the **Resource** relation.
+-  **ResourceType.typeID** is a foreign key in the **Resource** relation.
+- - **FeePolicy.policyID** is a foreign key in the **Borrowing** relation.
 
