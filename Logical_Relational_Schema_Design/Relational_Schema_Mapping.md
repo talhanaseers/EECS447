@@ -59,7 +59,7 @@ Each relation has a unique primary key to identify each tuple in the relation:
 - **Borrowing:** `borrowID`
 - **Author:** `authorID`
 - **Publisher:** `publisherID`
-- - **ResourceType:** `typeID`
+- **ResourceType:** `typeID`
 - **FeePolicy:** `policyID`
 
 ### Establish Foreign Keys
