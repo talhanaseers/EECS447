@@ -241,9 +241,31 @@ We worked on Project Part: One
 
 ### Action Items for Next Meeting:
 - **[Task 1]:** TBD
-- **[Task 2]:** TBD  
+- **[Task 2]:** TBD
 
 ---
+
+Meeting Date: November 8, 2024
+Time: 2:55 PM — Sp
+Attendees:
+
+[Talha Naseer (Team Leader)] — Absent
+[Deborah Onuosa] — Absent
+[Atharva Patil] — Present
+[Conner Glazner] — Present
+[Muhammad Abdullah] — Absent
+[Alec Slavik] — Present
+Meeting Purpose:
+[Discussing Part 5 Implementation and task assignment]
+
+Key Discussions & Decisions:
+[Role Assignment]: [Discussed the Responsibilities, but did not assign due to absent team members]
+
+Responsibilities Assigned:
+None
+Action Items for Next Meeting:
+[Task 1]: Assign Responsibilities
+[Task 2]: TBD
 
 
 
