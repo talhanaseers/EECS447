@@ -267,6 +267,84 @@ Action Items for Next Meeting:
 [Task 1]: Assign Responsibilities
 [Task 2]: TBD
 
+---
+
+## Meeting Date: November 17, 2024
+**Time:** 9pm — Discord Virtual Meeting 
+**Venue:** Discord  
+**Attendees:**  
+- [Talha Naseer (Team Leader)] — Present
+- [Deborah Onuosa] — Present
+- [Atharva Patil] — Present
+- [Conner Glazner] — Present
+- [Muhammad Abdullah] — Present
+- [Alec Slavik] — Present
+
+
+### Meeting Purpose:
+[Project Part 5 role assignment]
+
+### Key Discussions & Decisions:
+- **[Discussed Relation Database Schema]:** [Library Administrators, Library Members, System Administrators were decided as key stakeholders]
+- **[Discussed DDL]:** [Discussed and finalized both functional and non-functional requirements]
+- **[Corrections to Part 3 ER Diagram]:** [Declared data entities and their attributes]
+- **[Corrections to Part 3 ER Diagram Documentation]:** [Discussed and finalized admin user and member user requirements]
+
+
+
+### Responsibilities Assigned:
+- **[Schema Documentation — Relation Schema Diagram]:** [Alec Slavik]  
+- **[DDL]:** [Talha Naseer]
+- **[ER Diagram Correction]:** [Talha Naseer]
+- **[Schema Documentation — Data Dictionary]:** [Deborah Onuosa]
+- **[Introduction]:** [Muhammad Abdullah]
+- **[Relational Schema Mapping]:** [Conner Glazner, Atharva Patil]
+
+
+### Action Items for Next Meeting:
+- **[Task 1]:** TBD
+- **[Task 2]:** TBD
+
+---
+
+## Meeting Date: November 24, 2024
+**Time:** 9pm — Discord Virtual Meeting 
+**Venue:** Discord  
+**Attendees:**  
+- [Talha Naseer (Team Leader)] — Present
+- [Deborah Onuosa] — Present
+- [Atharva Patil] — Present
+- [Conner Glazner] — Present
+- [Muhammad Abdullah] — Present
+- [Alec Slavik] — Present
+
+
+### Meeting Purpose:
+[Project Part 5 tasks]
+
+### Key Discussions & Decisions:
+- **[Discussed Relation Database Schema]:** [Library Administrators, Library Members, System Administrators were decided as key stakeholders]
+- **[Discussed DDL]:** [Discussed and finalized both functional and non-functional requirements]
+- **[Corrections to Part 3 ER Diagram]:** [Declared data entities and their attributes]
+- **[Corrections to Part 3 ER Diagram Documentation]:** [Discussed and finalized admin user and member user requirements]
+
+
+
+### Responsibilities Assigned:
+- **[Schema Documentation — Relation Schema Diagram]:** [Alec Slavik]  
+- **[DDL]:** [Talha Naseer]
+- **[ER Diagram Correction]:** [Talha Naseer]
+- **[Schema Documentation — Data Dictionary]:** [Deborah Onuosa]
+- **[Introduction]:** [Muhammad Abdullah]
+- **[Relational Schema Mapping]:** [Conner Glazner, Atharva Patil]
+
+
+### Action Items for Next Meeting:
+- **[Task 1]:** TBD
+- **[Task 2]:** TBD
+
+---
+
 
 
 
