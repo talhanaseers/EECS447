@@ -73,7 +73,4 @@ Conclusion
 
 After completing these steps, the Library Management System database should be fully set up and ready to use. If you encounter any issues, refer to the testing_report.md for troubleshooting, or consult the final_report.md for more detailed project information.
 
-This guide covers the necessary setup steps in MySQL without being overly detailed while still ensuring all key steps are included.
 
-
-This version has been corrected with proper markdown headers, code blocks, and instructions, ready to be copied into a `.md` file on GitHub.
