@@ -4,17 +4,17 @@
 
 ## **Course Information**  
 **Course**: EECS 447 – Database Systems  
-**Instructor**: [Instructor Name]  
+**Instructor**: Professor Dr. Hossein Saidian  
 **Submission Date**: December 3, 2024  
 
 ---
 
 ## **Team Information**  
-**Team Name**: [Your Team Name]  
+**Team Name**: The Databasers 
 **Team Members**:  
 - Talha Naseer  
-- [Team Member 2]  
-- [Team Member 3]  
+- 
+-   
 
 ---
 
@@ -106,8 +106,9 @@ The system implements differentiated borrowing limits and late fee policies for 
 
 ## **Contributors**
 - **Talha Naseer**: Team Administrator, Documentation, SQL Scripts  
-- **[Team Member 2]**: ER Diagram, Testing  
-- **[Team Member 3]**: Schema Design, Normalization  
+- **[]**: ER Diagram, Testing  
+- **[]**: Schema Design, Normalization
+- etc etc
 
 ---
 
