@@ -1,60 +1,52 @@
 # Library Management System (LMS)
 
-## Introduction
-The Library Management System (LMS) database project provides a robust, relational structure to manage the library's operations. The system supports core functionalities like resource tracking, user management, borrowing activities, and late fee enforcement while ensuring data integrity and referential consistency. This database design is optimized for multi-user environments, allowing administrators to oversee operations efficiently and library members to engage seamlessly.
+## Overview
+The Library Management System (LMS) database is a relational structure designed to streamline library operations, ensuring efficient management of resources, user memberships, borrowing activities, and late fees. By incorporating robust database design principles, the LMS guarantees data integrity, scalability, and multi-user functionality, making it an ideal solution for both small and large libraries.
 
-## Project Objectives
-- **Streamline library operations:** Efficient tracking of inventory, borrowing, and returning activities.
-- **Enhance data integrity:** Establish strong primary and foreign key constraints.
-- **Ensure role-based access:** Differentiate functionalities based on user roles (e.g., Admin vs. Member).
-- **Support scalability:** Provide a robust foundation for future enhancements.
+## Features
+- **User Management**  
+  Maintain detailed records of users, including roles (e.g., Admin, Member) and membership statuses.
 
-## System Features
-- **User Management:** Tracks user details, roles, and membership statuses.
-- **Resource Inventory:** Manages books, magazines, and digital media, including available and total copies.
-- **Borrowing System:** Logs borrowing and returning activities, enforces due dates, and calculates late fees.
-- **Role-Based Fee Policies:** Implements fee structures specific to user roles (Admin/Member).
-- **Data Integrity:** Utilizes constraints like primary keys, foreign keys, and normalization principles to ensure consistency.
+- **Resource Inventory**  
+  Track books, magazines, and digital media with real-time data on availability and total copies.
 
-## Schema Documentation
-### Relational Schema Diagram
-The relational schema diagram visualizes the logical structure of the LMS database. It includes relations, attributes, primary keys (PKs), foreign keys (FKs), and relationships between entities.
+- **Borrowing System**  
+  Log borrowing and return activities, enforce due dates, and calculate late fees based on role-specific policies.
 
-Refer to the `Relational_Schema_Diagram.png` file in this repository for detailed visuals.
+- **Data Integrity**  
+  Use primary keys, foreign keys, and domain constraints to maintain referential consistency and prevent data anomalies.
 
-### Data Dictionary
-The data dictionary outlines the attributes, data types, domains, and constraints for each relation. View the `DataDictionary.md` file for a complete attribute reference.
+- **Role-Based Fee Policies**  
+  Differentiate borrowing rules and late fee structures for admins and members.
 
-### Relations Overview
-- **User:** Manages library user details and statuses.
-- **Resource:** Tracks library inventory, categorized by type (book, magazine, digital media).
-- **Borrowing:** Logs borrowing activities, including late fee calculations.
-- **Author:** Stores author information.
-- **Publisher:** Tracks publisher details.
-- **FeePolicy:** Defines role-based late fee structures.
-- **ResourceType:** Details classifications for resources.
+## Technical Highlights
+### Schema Design
+The LMS schema adheres to Third Normal Form (3NF) to ensure minimal redundancy and optimal performance. It includes the following core entities:
+- **User**: Tracks library members and staff.
+- **Resource**: Manages inventory, categorized by resource type.
+- **Borrowing**: Logs transactions for tracking resource utilization.
+- **Author**: Maintains information on resource creators.
+- **Publisher**: Tracks publishers associated with resources.
+- **FeePolicy**: Implements late fee rules based on user roles.
+- **ResourceType**: Defines types of resources available.
 
-## Key Technical Highlights
-- **Primary and Foreign Keys**
-  - Primary Keys uniquely identify records in all relations (e.g., `userID`, `resourceID`, `borrowID`).
-  - Foreign Keys enforce relationships between tables (e.g., `User.userID → Borrowing.userID`).
-- **Referential Integrity**
-  - Implemented through foreign key constraints to ensure consistent and valid references across tables.
-- **Normalization**
-  - The schema is normalized to reduce redundancy and achieve Third Normal Form (3NF). Dependencies between attributes are minimized for better data consistency and maintainability.
+### Integrity Constraints
+- **Primary Keys**: Ensure unique identification of records.
+- **Foreign Keys**: Enforce relationships between tables (e.g., `Borrowing.userID` → `User.userID`).
+- **Domain Constraints**: Restrict attribute values to valid ranges or enumerations.
 
-## Setup Instructions
-### Database Setup
-1. Use the SQL scripts in `LMS_Scripts.sql` to create the schema and populate initial data.
+### Scalability
+The schema is designed to accommodate future enhancements, such as:
+- Integration with mobile apps.
+- Advanced reporting features.
+- Personalized resource recommendations based on borrowing history.
 
-### Dependencies
-- Relational database management system (MySQL).
+## Installation
+### Prerequisites
+- A relational database management system (e.g., MySQL, PostgreSQL).
+- Basic knowledge of SQL.
 
-### Execution
-1. Import the schema into your database.
-2. Test the system using the provided sample queries.
-
-## Future Enhancements
-- **Enhanced Reporting:** Add support for generating detailed reports on borrowing trends, resource availability, and user activity.
-- **Recommendation System:** Introduce personalized recommendations based on borrowing history.
-- **Mobile App Integration:** Enable seamless access to the system via mobile applications.
+### Setup Instructions
+1. Clone this repository:  
+   ```bash
+   git clone 
