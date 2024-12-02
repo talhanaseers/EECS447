@@ -93,7 +93,7 @@ The system implements differentiated borrowing limits and late fee policies for 
 | **Nov 30, 2024**| Tested SQL scripts for schema creation and data insertion.                         | Added additional constraints for late fee calculations.                                                |
 | **Dec 1, 2024** | Created documentation for schema and setup instructions.                           | Clarified relationships in `ResourceType` table for better granularity.                                |
 | **Dec 2, 2024** | Finalized and reviewed documentation, relational schema, and test queries.          | No major changes.                                                                                      |
-| **Dec 3, 2024** | Submitted the final project report and ensured repository readiness for submission. | No changes.                                                                                            |
+| **Dec 3, 2024** |  | No changes.                                                                                            |
 
 ---
 
