@@ -1,6 +1,6 @@
 EECS 447 Library Management System: Logical Relational Schema Design
 
-Updated README
+README
 
 Introduction
 The Library Management System (LMS) database project provides a robust, relational structure to manage the library's operations. The system supports core functionalities like resource tracking, user management, borrowing activities, and late fee enforcement while ensuring data integrity and referential consistency. This database design is optimized for multi-user environments, allowing administrators to oversee operations efficiently and library members to engage seamlessly.
@@ -53,7 +53,7 @@ Setup Instructions
 Database Setup:
 Use the SQL scripts in LMS_Scripts.sql to create the schema and populate initial data.
 Dependencies:
-Relational database management system (e.g., MySQL, PostgreSQL).
+Relational database management system (MySQL).
 Execution:
 Import the schema into your database and test the system using the provided sample queries.
 Future Enhancements
