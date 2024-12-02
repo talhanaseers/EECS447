@@ -8,8 +8,8 @@
 
 
 ## Team Information
-### Team Name: Library Innovators  
-**Team Members**:  
+#### Team Name: Library Innovators  
+#### Team Members:  
   - **Project Leader:** Alec Slavik
   - **Team Adminstrator:** Talha Naseer
   - **Assistant Team Adminstrator:** Deborah Onuosa
