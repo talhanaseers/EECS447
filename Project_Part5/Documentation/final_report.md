@@ -11,9 +11,7 @@
 - **Team Name**: Library Innovators  
 - **Team Members**:  
   - Talha Naseer (Team Administrator)  
-  - [Member Name 2]  
-  - [Member Name 3]  
-  - [Member Name 4]  
+  -  
 
 ---
 
