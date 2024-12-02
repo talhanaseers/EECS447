@@ -133,7 +133,7 @@ Project_Part5
 │   └── borrowing_data.csv        # Sample data for borrowing transactions
 ├── Documentation/                # Project documentation and resources
 │   ├── Relational_Schema_Diagram.png # Visual representation of the database schema
-│   ├── final_report.md           # Final project report
+│   ├── final_report.md           # Final project detailed report
 │   ├── requirements.md           # Project requirements and objectives
 │   ├── setup_guide.md            # Instructions for setting up the database
 │   ├── testing_report.md         # Testing procedures and results
@@ -142,7 +142,7 @@ Project_Part5
 │   ├── borrowing_history.sql     # Query to track borrowing history
 │   ├── late_fees.sql             # Query to calculate late fees
 │   └── resource_availability.sql # Query for checking resource availability
-└── README.md                     # Main project documentation file
+└── README.md                     # Entry Point Documentation (Refer to Final Report for detailed documentation)
 ```
 
 ---
