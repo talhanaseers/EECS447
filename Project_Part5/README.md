@@ -43,7 +43,7 @@ The schema is designed to accommodate future enhancements, such as:
 
 ## Installation
 ### Prerequisites
-- A relational database management system (e.g., MySQL, PostgreSQL).
+- A relational database management system (PostgreSQL).
 - Basic knowledge of SQL.
 
 ### Setup Instructions
