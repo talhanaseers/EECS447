@@ -108,7 +108,7 @@ The relational schema was designed to capture core entities such as:
 ---
 
 ## **Folder Structure**
-
+```
 Project_Part5
 ├── DDL/                          # SQL scripts for schema creation and constraints
 │   ├── create_tables.sql         # Script for creating tables
@@ -135,7 +135,7 @@ Project_Part5
 │   ├── user_activity_report.sql  # Query for generating user activity reports
 │   └── resource_availability.sql # Query for checking resource availability
 └── README.md                     # Main project documentation file
-
+```
 
 ---
 
