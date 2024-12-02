@@ -8,7 +8,7 @@
 
 
 ## Team Information
-***Team Name***: Library Innovators  
+****Team Name****: Library Innovators  
 #### Team Members:  
   - **Project Leader:** Alec Slavik
   - **Team Adminstrator:** Talha Naseer
