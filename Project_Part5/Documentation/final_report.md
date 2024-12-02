@@ -10,8 +10,20 @@
 ## Team Information
 - **Team Name**: Library Innovators  
 - **Team Members**:  
-  - Talha Naseer (Team Administrator)  
-  -  
+  - **Project Leader:** Alec Slavik
+  - **Team Adminstrator:** Talha Naseer
+  - **Assistant Team Adminstrator:** Deborah Onuosa
+  - **Assistant Project Leader:** Muhammad Abdullah
+  - **Technical Leader:** Conner Glazner
+  - **Data Adminstrator:** Atharva Patil
+
+### Responsibilities Assigned for Project Part 5:
+- Talha Naseer: Choosing platform, filling any gaps in any task/roles, submission
+- Deborah Onuosa: Documentation
+- Atharva Patil: Creating database
+- Conner Glazner: Functionality testing 
+- Muhammad Abdullah: Test and validate 
+- Alec Slavik: Data population
 
 ---
 
