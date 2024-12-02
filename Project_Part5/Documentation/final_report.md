@@ -10,7 +10,7 @@
 ---
 
 ## **Team Information**  
-**Team Name**: The Databasers 
+**Team Name**: The Databasers
 **Team Members**:  
 - Talha Naseer  
 - 
