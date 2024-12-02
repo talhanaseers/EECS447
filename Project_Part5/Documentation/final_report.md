@@ -109,22 +109,37 @@ The relational schema was designed to capture core entities such as:
 
 ---
 
-## Folder Structure
+## **Folder Structure**
 
-The project is organized as follows:
-
-Project Part 5/ ├── DDL/ │ ├── create_tables.sql │ ├── insert_data.sql │ ├── constraints.sql │ ├── triggers.sql │ └── views.sql ├── Data/ │ ├── sample_data.csv │ ├── member_data.csv │ ├── resource_data.csv │ └── borrowing_data.csv ├── Documentation/ │ ├── Relational_Schema_Diagram.png │ ├── final_report.md │ ├── requirements.md │ ├── setup_guide.md │ ├── testing_report.md │ └── data_dictionary.md ├── Queries/ │ ├── borrowing_history.sql │ ├── late_fees.sql │ ├── most_borrowed_books.sql │ ├── user_activity_report.sql │ └── resource_availability.sql ├── README.md
-
-
-### Description of Folders and Files
-- **DDL**: Contains scripts for database creation, constraints, triggers, and views.
-- **Data**: Includes sample datasets used for testing and populating the database.
-- **Documentation**: Contains detailed documentation, schema diagrams, and the final report.
-- **Queries**: Includes SQL queries for reports and analytics.
-- **README.md**: The main project documentation file.
-
+Project_Part5
+├── DDL/                          # SQL scripts for schema creation and constraints
+│   ├── create_tables.sql         # Script for creating tables
+│   ├── insert_data.sql           # Script for populating tables with initial data
+│   ├── constraints.sql           # Script for adding constraints
+│   ├── triggers.sql              # Script for creating triggers
+│   └── views.sql                 # Script for creating views
+├── Data/                         # Sample datasets used for testing
+│   ├── sample_data.csv           # Sample data for resources
+│   ├── member_data.csv           # Sample data for members
+│   ├── resource_data.csv         # Sample data for library resources
+│   └── borrowing_data.csv        # Sample data for borrowing transactions
+├── Documentation/                # Project documentation and resources
+│   ├── Relational_Schema_Diagram.png # Visual representation of the database schema
+│   ├── final_report.md           # Final project report
+│   ├── requirements.md           # Project requirements and objectives
+│   ├── setup_guide.md            # Instructions for setting up the database
+│   ├── testing_report.md         # Testing procedures and results
+│   └── data_dictionary.md        # Detailed description of database entities and attributes
+├── Queries/                      # SQL queries for reporting and analysis
+│   ├── borrowing_history.sql     # Query to track borrowing history
+│   ├── late_fees.sql             # Query to calculate late fees
+│   ├── most_borrowed_books.sql   # Query to find the most borrowed books
+│   ├── user_activity_report.sql  # Query for generating user activity reports
+│   └── resource_availability.sql # Query for checking resource availability
+└── README.md                     # Main project documentation file
 
 ---
+
 ## Conclusion
 
 The Library Management System Database achieves its objective of simplifying library operations while ensuring robust data integrity and scalability. By adhering to industry-standard design principles and employing rigorous testing, this project provides a reliable foundation for future enhancements like analytics and mobile integration.
