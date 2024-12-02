@@ -1,41 +1,121 @@
-# Library Management System Database
-
-## Table of Contents
-
-1. [Project Overview](#project-overview)
-2. [Key Features](#key-features)
-3. [Setup Instructions](#setup-instructions)
-4. [Usage Guide](#usage-guide)
-5. [Database Schema](#database-schema)
-6. [Folder Structure](#folder-structure)
-7. [Contributors](#contributors)
+# **Final Report: Library Management System Database**
 
 ---
 
-## Project Overview
-
-The Library Management System Database is designed to streamline library operations by efficiently managing resources, memberships, and borrowing activities. Built with MySQL, the database provides a robust and scalable solution, enabling libraries to maintain data integrity and generate insightful analytics.
-
-### Objectives
-- **Resource Management**: Organize and track books and other library resources.
-- **Membership Management**: Maintain member details and track borrowing history.
-- **Operational Insights**: Generate analytics reports for library operations.
+## **Course Information**  
+**Course**: EECS 447 – Database Systems  
+**Instructor**: [Instructor Name]  
+**Submission Date**: December 3, 2024  
 
 ---
 
-## Key Features
-
-1. **Comprehensive Schema Design**: Normalized database structure with efficient indexing.
-2. **Data Integrity**: Enforced through constraints such as primary and foreign keys.
-3. **Predefined Reports**: Queries for generating statistics like most borrowed books.
-4. **Testing and Validation**: Scripts to verify database consistency and edge-case handling.
-5. **Scalable Architecture**: Designed for future enhancements like digital resource tracking.
+## **Team Information**  
+**Team Name**: [Your Team Name]  
+**Team Members**:  
+- Talha Naseer  
+- [Team Member 2]  
+- [Team Member 3]  
 
 ---
 
-## Setup Instructions
+## **Project Overview**
 
-### Prerequisites
-- MySQL 8.0+ installed on your system.
-- A MySQL-compatible SQL client (e.g., MySQL Workbench).
+The **Library Management System (LMS)** is a comprehensive database designed to optimize the operational efficiency of libraries by managing resources, memberships, and borrowing activities. The database adheres to relational database principles and is implemented in MySQL, ensuring scalability, data integrity, and ease of use.
 
+---
+
+### **Objectives**
+1. **Efficient Resource Management**: Track library materials, including books, magazines, and digital resources.  
+2. **Membership Oversight**: Maintain user profiles, borrowing history, and membership statuses.  
+3. **Operational Insights**: Generate analytics reports for key metrics, such as borrowing trends.  
+4. **Data Integrity**: Enforce robust constraints for referential integrity and minimize redundancy.  
+5. **Future Scalability**: Create a database that can evolve with additional features like mobile integration.
+
+---
+
+## **Database Schema**
+
+### **Relational Schema**
+The LMS database contains the following core relations:  
+1. **Users**: Tracks user details and roles (e.g., Admin, Member).  
+2. **Resources**: Manages inventory of books, magazines, and digital resources.  
+3. **Borrowing**: Logs borrowing activities, due dates, and late fees.  
+4. **Authors**: Maintains author information.  
+5. **Publishers**: Tracks publisher details.  
+6. **FeePolicy**: Implements role-based fee structures.  
+7. **ResourceType**: Categorizes resources (e.g., books, magazines, media).  
+
+The schema adheres to **Third Normal Form (3NF)** to ensure minimal redundancy and optimal performance.
+
+### **Diagram**
+Refer to the **Relational_Schema_Diagram.png** in the repository for a visual representation of the schema.  
+
+---
+
+## **Key Features**
+
+### **Normalization**
+The schema has been normalized to 3NF:
+- Attributes are functionally dependent only on the primary key.
+- Redundancy is minimized, improving data integrity and maintainability.
+
+### **Constraints**
+- **Primary Keys**: Ensure unique record identification.
+- **Foreign Keys**: Maintain relationships between tables and enforce referential integrity.
+- **Domain Constraints**: Restrict values to specific ranges or types (e.g., dates for borrowing transactions).
+
+### **Role-Based Policies**
+The system implements differentiated borrowing limits and late fee policies for Admins and Members.
+
+---
+
+## **Setup Instructions**
+
+1. **Prerequisites**:  
+   - MySQL 8.0+ installed on your system.  
+   - SQL client software such as MySQL Workbench or a compatible alternative.  
+
+2. **Database Initialization**:  
+   Run the provided `LMS_Scripts.sql` file to create the schema and populate it with initial data.
+
+3. **Testing the Setup**:  
+   Use the included sample queries in `Sample_Queries.sql` to validate database functionality.
+
+---
+
+## **Progress Tracker**
+
+| **Date**       | **Tasks Completed**                                                                 | **Decisions/Changes**                                                                                   |
+|-----------------|-------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
+| **Nov 28, 2024**| Finalized the database schema and began ER diagram creation.                        | No changes made to initial plan.                                                                       |
+| **Nov 29, 2024**| Converted the ER diagram into relational schema and started writing SQL scripts.    | Adjusted cardinalities for `Borrowing` relation to accommodate multiple borrow-return cycles.           |
+| **Nov 30, 2024**| Tested SQL scripts for schema creation and data insertion.                         | Added additional constraints for late fee calculations.                                                |
+| **Dec 1, 2024** | Created documentation for schema and setup instructions.                           | Clarified relationships in `ResourceType` table for better granularity.                                |
+| **Dec 2, 2024** | Finalized and reviewed documentation, relational schema, and test queries.          | No major changes.                                                                                      |
+| **Dec 3, 2024** | Submitted the final project report and ensured repository readiness for submission. | No changes.                                                                                            |
+
+---
+
+## **Future Enhancements**
+
+1. **Mobile App Integration**: Expand the database to integrate seamlessly with mobile applications for user convenience.
+2. **Recommendation Engine**: Implement a module to suggest resources based on user borrowing history.
+3. **Enhanced Analytics**: Introduce detailed reporting capabilities for library administrators.
+
+---
+
+## **Contributors**
+- **Talha Naseer**: Team Administrator, Documentation, SQL Scripts  
+- **[Team Member 2]**: ER Diagram, Testing  
+- **[Team Member 3]**: Schema Design, Normalization  
+
+---
+
+## **Folder Structure**
+```plaintext
+├── Relational_Schema_Diagram.png    # Visual representation of the schema
+├── LMS_Scripts.sql                  # SQL scripts for schema creation and data population
+├── Sample_Queries.sql               # Test queries for database validation
+├── DataDictionary.md                # Detailed data dictionary
+├── Final_Report.md                  # Final project report
+└── README.md                        # Project overview and setup instructions
