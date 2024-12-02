@@ -25,7 +25,8 @@
 5. [Challenges and Solutions](#challenges-and-solutions)
 6. [Future Enhancements](#future-enhancements)
 7. [Progress Log](#progress-log)
-8. [Conclusion](#conclusion)
+8. [Folder Structure](#folder-structure)
+9. [Conclusion](#conclusion)
 
 ---
 
@@ -105,8 +106,25 @@ The relational schema was designed to capture core entities such as:
 | **Dec 1, 2024** | Created documentation for schema and setup instructions.                           | Clarified relationships in `ResourceType` table for better granularity.                                |
 | **Dec 2, 2024** | Finalized and reviewed documentation, relational schema, and test queries.          | No major changes.                                                                                      |
 | **Dec 3, 2024** |  |   
+
 ---
 
+## Folder Structure
+
+The project is organized as follows:
+
+Project Part 5/ ├── DDL/ │ ├── create_tables.sql │ ├── insert_data.sql │ ├── constraints.sql │ ├── triggers.sql │ └── views.sql ├── Data/ │ ├── sample_data.csv │ ├── member_data.csv │ ├── resource_data.csv │ └── borrowing_data.csv ├── Documentation/ │ ├── Relational_Schema_Diagram.png │ ├── final_report.md │ ├── requirements.md │ ├── setup_guide.md │ ├── testing_report.md │ └── data_dictionary.md ├── Queries/ │ ├── borrowing_history.sql │ ├── late_fees.sql │ ├── most_borrowed_books.sql │ ├── user_activity_report.sql │ └── resource_availability.sql ├── README.md
+
+
+### Description of Folders and Files
+- **DDL**: Contains scripts for database creation, constraints, triggers, and views.
+- **Data**: Includes sample datasets used for testing and populating the database.
+- **Documentation**: Contains detailed documentation, schema diagrams, and the final report.
+- **Queries**: Includes SQL queries for reports and analytics.
+- **README.md**: The main project documentation file.
+
+
+---
 ## Conclusion
 
 The Library Management System Database achieves its objective of simplifying library operations while ensuring robust data integrity and scalability. By adhering to industry-standard design principles and employing rigorous testing, this project provides a reliable foundation for future enhancements like analytics and mobile integration.
