@@ -49,4 +49,4 @@ The schema is designed to accommodate future enhancements, such as:
 ### Setup Instructions
 1. Clone this repository:  
    ```bash
-   git clone https://github.com/talhanaseers/EECS447.git
+   git clone https://github.com/talhanaseers/EECS447/Project_Part5.git
