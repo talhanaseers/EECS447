@@ -19,6 +19,36 @@ The Library Management System (LMS) database is a relational structure designed 
 - **Role-Based Fee Policies**  
   Differentiate borrowing rules and late fee structures for admins and members.
 
+---
+
+## **Folder Structure**
+```
+Project_Part5
+├── DDL/                          # SQL scripts for schema creation and constraints
+│   ├── create_tables.sql         # Script for creating tables
+│   ├── insert_data.sql           # Script for populating tables with initial data
+│   └── constraints.sql           # Script for adding constraints
+├── Data/                         # Sample datasets used for testing
+│   ├── sample_data.csv           # Sample data for resources
+│   ├── member_data.csv           # Sample data for members
+│   ├── resource_data.csv         # Sample data for library resources
+│   └── borrowing_data.csv        # Sample data for borrowing transactions
+├── Documentation/                # Project documentation and resources
+│   ├── Relational_Schema_Diagram.png # Visual representation of the database schema
+│   ├── final_report.md           # Final project report
+│   ├── requirements.md           # Project requirements and objectives
+│   ├── setup_guide.md            # Instructions for setting up the database
+│   ├── testing_report.md         # Testing procedures and results
+│   └── data_dictionary.md        # Detailed description of database entities and attributes
+├── Queries/                      # SQL queries for reporting and analysis
+│   ├── borrowing_history.sql     # Query to track borrowing history
+│   ├── late_fees.sql             # Query to calculate late fees
+│   └── resource_availability.sql # Query for checking resource availability
+└── README.md                     # Main project documentation file
+```
+
+---
+
 ## Technical Highlights
 ### Schema Design
 The LMS schema adheres to Third Normal Form (3NF) to ensure minimal redundancy and optimal performance. It includes the following core entities:
@@ -50,30 +80,3 @@ The schema is designed to accommodate future enhancements, such as:
 1. Clone this repository:  
    ```bash
    git clone https://github.com/talhanaseers/EECS447/Project_Part5.git
-
-
-## **Folder Structure**
-```
-Project_Part5
-├── DDL/                          # SQL scripts for schema creation and constraints
-│   ├── create_tables.sql         # Script for creating tables
-│   ├── insert_data.sql           # Script for populating tables with initial data
-│   └── constraints.sql           # Script for adding constraints
-├── Data/                         # Sample datasets used for testing
-│   ├── sample_data.csv           # Sample data for resources
-│   ├── member_data.csv           # Sample data for members
-│   ├── resource_data.csv         # Sample data for library resources
-│   └── borrowing_data.csv        # Sample data for borrowing transactions
-├── Documentation/                # Project documentation and resources
-│   ├── Relational_Schema_Diagram.png # Visual representation of the database schema
-│   ├── final_report.md           # Final project report
-│   ├── requirements.md           # Project requirements and objectives
-│   ├── setup_guide.md            # Instructions for setting up the database
-│   ├── testing_report.md         # Testing procedures and results
-│   └── data_dictionary.md        # Detailed description of database entities and attributes
-├── Queries/                      # SQL queries for reporting and analysis
-│   ├── borrowing_history.sql     # Query to track borrowing history
-│   ├── late_fees.sql             # Query to calculate late fees
-│   └── resource_availability.sql # Query for checking resource availability
-└── README.md                     # Main project documentation file
-```
