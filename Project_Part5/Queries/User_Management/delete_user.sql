@@ -1,0 +1,2 @@
+DELETE FROM User
+WHERE userID = 1;
