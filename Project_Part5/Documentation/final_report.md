@@ -184,4 +184,5 @@ The Library Management System Database achieves its objective of simplifying lib
 
 This database not only fulfills current library needs but also anticipates future demands, ensuring long-term usability and adaptability.
 
-Final Report is 
+Refer to Documentation.pdf for detailed progress log, and enhanced details relevant to project part 5.
+Refer to testing_report.md for detailed testing procedures and summaries.
