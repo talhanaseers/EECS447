@@ -50,7 +50,9 @@ with open("borrowing_data.sql", "w") as file:
         # Random policyID
         policy_id = random.randint(1, 25)
         
-        return_date_str = f"'{return_date_str}'" #makes sure sql date has single quotes
+        return_date_str = f"'{return_date_str}'" # Makes sure sql date has single quotes (not null)
+        if return_date_str == "'NULL'":
+            return_date_str = return_date_str.strip("'")  # Strip single quotes for NULL
 
         # Create the SQL statement
         sql_statement = (
