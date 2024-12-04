@@ -1,1 +1,25 @@
-
+INSERT INTO FeePolicy (policyID, baseFee, maxFee) VALUES (1, 5.00, 100.00);
+INSERT INTO FeePolicy (policyID, baseFee, maxFee) VALUES (2, 8.00, 300.00);
+INSERT INTO FeePolicy (policyID, baseFee, maxFee) VALUES (3, 8.00, 300.00);
+INSERT INTO FeePolicy (policyID, baseFee, maxFee) VALUES (4, 8.00, 300.00);
+INSERT INTO FeePolicy (policyID, baseFee, maxFee) VALUES (5, 6.00, 100.00);
+INSERT INTO FeePolicy (policyID, baseFee, maxFee) VALUES (6, 5.00, 100.00);
+INSERT INTO FeePolicy (policyID, baseFee, maxFee) VALUES (7, 7.00, 100.00);
+INSERT INTO FeePolicy (policyID, baseFee, maxFee) VALUES (8, 9.00, 300.00);
+INSERT INTO FeePolicy (policyID, baseFee, maxFee) VALUES (9, 10.00, 300.00);
+INSERT INTO FeePolicy (policyID, baseFee, maxFee) VALUES (10, 9.00, 300.00);
+INSERT INTO FeePolicy (policyID, baseFee, maxFee) VALUES (11, 9.00, 300.00);
+INSERT INTO FeePolicy (policyID, baseFee, maxFee) VALUES (12, 6.00, 100.00);
+INSERT INTO FeePolicy (policyID, baseFee, maxFee) VALUES (13, 7.00, 100.00);
+INSERT INTO FeePolicy (policyID, baseFee, maxFee) VALUES (14, 10.00, 300.00);
+INSERT INTO FeePolicy (policyID, baseFee, maxFee) VALUES (15, 6.00, 100.00);
+INSERT INTO FeePolicy (policyID, baseFee, maxFee) VALUES (16, 9.00, 300.00);
+INSERT INTO FeePolicy (policyID, baseFee, maxFee) VALUES (17, 9.00, 300.00);
+INSERT INTO FeePolicy (policyID, baseFee, maxFee) VALUES (18, 10.00, 300.00);
+INSERT INTO FeePolicy (policyID, baseFee, maxFee) VALUES (19, 10.00, 300.00);
+INSERT INTO FeePolicy (policyID, baseFee, maxFee) VALUES (20, 7.00, 100.00);
+INSERT INTO FeePolicy (policyID, baseFee, maxFee) VALUES (21, 8.00, 300.00);
+INSERT INTO FeePolicy (policyID, baseFee, maxFee) VALUES (22, 10.00, 300.00);
+INSERT INTO FeePolicy (policyID, baseFee, maxFee) VALUES (23, 5.00, 100.00);
+INSERT INTO FeePolicy (policyID, baseFee, maxFee) VALUES (24, 10.00, 300.00);
+INSERT INTO FeePolicy (policyID, baseFee, maxFee) VALUES (25, 5.00, 100.00);
