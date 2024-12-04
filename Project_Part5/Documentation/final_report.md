@@ -172,7 +172,7 @@ Project_Part5
 |        ├── resource_usage_report.sql             # Queries for usage report
 |        ├── top_ten_borrowed_resources_report.sql # Queries for top ten borrowed report
 |        └── user_borrowing_history_report.sql     # Queries for user borrowing history report
-└── README.md             # Entry Point Documentation (Refer to Documentation.pdf for detailed documentation, Final Report for a
+└── README.md             # Entry Point Documentation (Refer to Documentation.pdf for detailed documentation, final_report.md for a
                             detailed final report)
 ```
 
