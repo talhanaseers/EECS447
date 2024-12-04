@@ -21,28 +21,19 @@ Select the Database: Switch to the newly created database.
 USE library_management;
 Step 2: Run SQL Scripts
 
-You will find the necessary SQL scripts in the DDL/ folder. These scripts need to be executed in sequence.
+You will find the necessary SQL scripts in the DDL/ and the Data/ folder. These scripts need to be executed in sequence.
 
 2.1: Create Tables
 Run the create_tables.sql script to create the necessary tables in the database.
 
-SOURCE /path/to/DDL/create_tables.sql;
+SOURCE /path/to/DDL/creat_tables.sql;
+
 2.2: Insert Sample Data
-Run the insert_data.sql script to populate the tables with sample data.
+Run author_data.sql, publisher_data.sql, user_data.sql, fee_policy_data.sql, resource_data.sql, and borrowing_data.sql scripts in that order to populate the tables with sample data.
 
-SOURCE /path/to/DDL/insert_data.sql;
-2.3: Add Constraints
-Run the constraints.sql script to define constraints like primary and foreign keys.
+SOURCE /path/to/Data/Data_files;
 
-SOURCE /path/to/DDL/constraints.sql;
-2.4: Create Triggers
-Run the triggers.sql script to create triggers for automated actions like calculating late fees.
 
-SOURCE /path/to/DDL/triggers.sql;
-2.5: Create Views
-Run the views.sql script to create predefined views for simplified reporting.
-
-SOURCE /path/to/DDL/views.sql;
 Step 3: Verify the Setup
 
 Once the scripts have been executed, verify the setup by performing the following checks:
@@ -68,7 +59,7 @@ The Queries/ folder contains SQL queries for generating reports and performing d
 
 For example, to view the borrowing history, run:
 
-SOURCE /path/to/Queries/borrowing_history.sql;
+SOURCE /path/to/Queries/Search_and_Reports/user_borrowing_history.sql;
 Conclusion
 
 After completing these steps, the Library Management System database should be fully set up and ready to use. If you encounter any issues, refer to the testing_report.md for troubleshooting, or consult the final_report.md for more detailed project information.
