@@ -1,6 +1,3 @@
-Here’s a formatted version of your setup guide, optimized for GitHub with Markdown syntax:
-
-```markdown
 # Setup Guide for Library Management System Database
 
 This guide will help you set up the **Library Management System Database** on your local machine using **MySQL**.
@@ -34,14 +31,14 @@ This guide will help you set up the **Library Management System Database** on yo
 
 ## Step 2: Run SQL Scripts
 
-You will find the necessary SQL scripts in the `DDL/` and `Data/` folders. These scripts need to be executed in sequence.
+You will find the necessary SQL scripts in the `Project_Part5/DDL/` and `Project_Part5/Data/` folders. These scripts need to be executed in sequence.
 
 ### 2.1: Create Tables
 
 Run the `create_tables.sql` script to create the necessary tables in the database.
 
 ```sql
-SOURCE /path/to/DDL/create_tables.sql;
+SOURCE /path/to/Project_Part5/DDL/create_tables.sql;
 ```
 
 ### 2.2: Insert Sample Data
@@ -49,19 +46,19 @@ SOURCE /path/to/DDL/create_tables.sql;
 Run the following scripts in order to populate the tables with sample data:
 
 1. `author_data.sql`
-2. `publisher_data.sql`
-3. `user_data.sql`
-4. `fee_policy_data.sql`
+2. `borrowing_data.sql`
+3. `fee_policy_data.sql`
+4. `publishers_data.sql`
 5. `resource_data.sql`
-6. `borrowing_data.sql`
+6. `user_data.sql`
 
 ```sql
-SOURCE /path/to/Data/author_data.sql;
-SOURCE /path/to/Data/publisher_data.sql;
-SOURCE /path/to/Data/user_data.sql;
-SOURCE /path/to/Data/fee_policy_data.sql;
-SOURCE /path/to/Data/resource_data.sql;
-SOURCE /path/to/Data/borrowing_data.sql;
+SOURCE /path/to/Project_Part5/Data/Data Files/author_data.sql;
+SOURCE /path/to/Project_Part5/Data/Data Files/borrowing_data.sql;
+SOURCE /path/to/Project_Part5/Data/Data Files/fee_policy_data.sql;
+SOURCE /path/to/Project_Part5/Data/Data Files/publishers_data.sql;
+SOURCE /path/to/Project_Part5/Data/Data Files/resource_data.sql;
+SOURCE /path/to/Project_Part5/Data/Data Files/user_data.sql;
 ```
 
 ### 2.3: Add Constraints
@@ -69,7 +66,7 @@ SOURCE /path/to/Data/borrowing_data.sql;
 Run the `constraints.sql` script to define constraints like primary and foreign keys.
 
 ```sql
-SOURCE /path/to/DDL/constraints.sql;
+SOURCE /path/to/Project_Part5/DDL/constraints.sql;
 ```
 
 ---
@@ -110,12 +107,12 @@ SELECT * FROM most_borrowed_books;
 
 ## Step 4: Running Queries
 
-The `Queries/` folder contains SQL queries for generating reports and performing data analysis. To run any query, execute the SQL file in your MySQL client.
+The `Project_Part5/Queries/` folder contains SQL queries for generating reports and performing data analysis. To run any query, execute the SQL file in your MySQL client.
 
 For example, to view the borrowing history, run:
 
 ```sql
-SOURCE /path/to/Queries/Search_and_Reports/user_borrowing_history.sql;
+SOURCE /path/to/Project_Part5/Queries/Search_and_Reports/user_borrowing_history_report.sql;
 ```
 
 ---
@@ -125,4 +122,4 @@ SOURCE /path/to/Queries/Search_and_Reports/user_borrowing_history.sql;
 After completing these steps, the Library Management System database should be fully set up and ready to use. If you encounter any issues, refer to the `testing_report.md` for troubleshooting, or consult the `final_report.md` for more detailed project information.
 ```
 
-This layout uses proper Markdown syntax for better readability and formatting on GitHub. Simply copy and paste this into your repository's README.md or any other Markdown file.
+This updated guide uses the correct paths based on your folder structure and will help users set up the database properly from your project’s directories.
