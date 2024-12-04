@@ -50,6 +50,8 @@ with open("borrowing_data.sql", "w") as file:
         # Random policyID
         policy_id = random.randint(1, 25)
         
+        return_date_str = f"'{return_date_str}'" #makes sure sql date has single quotes
+
         # Create the SQL statement
         sql_statement = (
             f"INSERT INTO Borrowing (borrowID, userID, resourceID, borrowDate, returnDate, dueDate, lateFee, policyID) "
