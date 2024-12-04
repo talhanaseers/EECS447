@@ -89,6 +89,7 @@ The relational schema was designed to capture core entities such as:
 ---
 
 ## Challenges and Solutions
+**Refer to Documentation.pdf for detailed overview**
 
 ### Challenge: Maintaining Data Integrity
 - **Solution**: Implemented strict constraints and transaction controls to prevent invalid data.
@@ -108,6 +109,8 @@ The relational schema was designed to capture core entities such as:
 
 ## **Progress Log**
 
+### Refer to Documentation.pdf for detailed progress tracking
+
 | **Date**       | **Tasks Completed**                                                                 | **Decisions/Changes/Notes**                                                                                   |
 |-----------------|-------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
 | **Nov 28, 2024**| Finalized the database schema and began ER diagram creation.                        | No changes made to initial plan.                                                                       |
@@ -115,7 +118,7 @@ The relational schema was designed to capture core entities such as:
 | **Nov 30, 2024**| Tested SQL scripts for schema creation and data insertion.                         | Added additional constraints for late fee calculations.                                                |
 | **Dec 1, 2024** | Created documentation for schema and setup instructions.                           | Clarified relationships in `ResourceType` table for better granularity.                                |
 | **Dec 2, 2024** | Finalized and reviewed documentation, relational schema, and test queries.          | No major changes.                                                                                      |
-| **Dec 3, 2024** |  |   
+| **Dec 3, 2024** | Organized files and folders, submission to canvas. | No changes.   
 
 ---
 
