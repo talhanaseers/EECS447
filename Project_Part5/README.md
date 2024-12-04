@@ -47,6 +47,7 @@ Project_Part5
 ├── Documentation/                       # Project documentation and resources
 │   ├── Relational_Schema_Diagram.png    # Visual representation of the database schema
 │   ├── final_report.md                  # Final project detailed report
+│   ├── Documentation.pdf                # Detailed documentation
 │   ├── requirements.md                  # Project requirements and objectives
 │   ├── setup_guide.md                   # Instructions for setting up the database
 │   ├── testing_report.md                # Testing procedures and results
@@ -70,9 +71,9 @@ Project_Part5
 |        ├── resource_usage_report.sql             # Queries for usage report
 |        ├── top_ten_borrowed_resources_report.sql # Queries for top ten borrowed report
 |        └── user_borrowing_history_report.sql     # Queries for user borrowing history report
-└── README.md             # Entry Point Documentation (Refer to Final Report for detailed documentation)
+└── README.md             # Entry Point Documentation (Refer to Documentation.pdf for detailed documentation, Final Report for a
+                            detailed final report)
 ```
-
 ---
 
 ## Technical Highlights
