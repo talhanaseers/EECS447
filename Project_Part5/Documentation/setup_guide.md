@@ -35,7 +35,7 @@ SOURCE /path/to/Data/Data_files;
 
 2.3: Add Constraints Run the constraints.sql script to define constraints like primary and foreign keys.
 
-2.4: Create Triggers Run the triggers.sql script to create triggers for automated actions like calculating late fees.
+SOURCE /path/to/DDL/constraints.sql
 
 Step 3: Verify the Setup
 
