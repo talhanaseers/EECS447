@@ -35,9 +35,7 @@ ORDER BY avg_processing_time DESC;
 *(Insert screenshot here)*  
 
 #### **Insights**  
-- Resources in the "Technology" genre have the highest processing times, averaging 15 days.  
-- Children's books are returned the fastest, averaging 3 days.  
-- Suggest reducing loan periods for slow-returning genres.  
+- Sample Insight
 
 ---
 
@@ -60,8 +58,7 @@ WHERE return_date IS NOT NULL;
 *(Insert screenshot here)*  
 
 #### **Insights**  
-- 25% of books are returned past their due date, with a significant spike during holiday seasons.  
-- Automated email reminders could help reduce overdue rates.  
+- Sample Insight
 
 ---
 
@@ -84,8 +81,7 @@ ORDER BY fine_month;
 *(Insert screenshot here)*  
 
 #### **Insights**  
-- The highest fine collections occur in January and June, coinciding with the end of semesters.  
-- Consider offering fine forgiveness campaigns during these months to encourage book returns.  
+- Sample Insight  
 
 ---
 
@@ -108,8 +104,7 @@ ORDER BY total_checkouts DESC;
 *(Insert screenshot here)*  
 
 #### **Insights**  
-- Saturdays have the highest borrowing activity, followed by Sundays.  
-- Increase staffing on weekends to handle peak demand.  
+- Sample Insight
 
 ---
 
@@ -134,8 +129,7 @@ ORDER BY max_borrowing_time DESC;
 *(Insert screenshot here)*  
 
 #### **Insights**  
-- Resource #1024 has the longest borrowing time, indicating high demand or processing delays.  
-- Consider acquiring additional copies of high-demand resources.  
+- Sample Insight
 
 ---
 
