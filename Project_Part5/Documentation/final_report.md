@@ -119,6 +119,8 @@ The relational schema was designed to capture core entities such as:
 | **Dec 1, 2024** | Created documentation for schema and setup instructions.                           | Clarified relationships in `ResourceType` table for better granularity.                                |
 | **Dec 2, 2024** | Finalized and reviewed documentation, relational schema, and test queries.          | No major changes.                                                                                      |
 | **Dec 3, 2024** | Organized files and folders, submission to canvas. | No changes.   
+| **Dec 7, 2024** | SQL Report & Additional Queries added as per new assignment | New Repositories for additional assignments   
+| **Dec 8, 2024** | Finalized changes, resubmission for additional tasks | No changes.   
 
 ---
 
