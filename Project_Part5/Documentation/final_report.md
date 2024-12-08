@@ -125,26 +125,44 @@ The relational schema was designed to capture core entities such as:
 ## **Folder Structure**
 ```
 Project_Part5
+│
+├── Additional Queries (Assigned December 5)/       # Additional SQL Queries (Alternative to live team demos — Assigned December 5, 2024)
+│   ├── Fine_Calculation.sql                        # Additional SQL Query
+│   ├── Book_Availability.sql                       # Additional SQL Query
+│   ├── Frequent_Borrowers_of_a_Specific_Genre.sql  # Additional SQL Query
+│   ├── Books_Due_Soon.sql                          # Additional SQL Query
+│   ├── Members_with_Overdue_Books.sql              # Additional SQL Query
+│   ├── Average_Borrowing_Time.sql                  # Additional SQL Query
+│   └── Most_Popular_Author_in_the_Last_Month.sql   # Additional SQL Query
+│
+├── SQL Report (Assigned December 5)/               # SQL Report and Output Screenshot (Alternative to live team demos — Assigned December 5, 2024)
+│   ├── Operational_Efficiency_Report.md            # Operational Efficiency Report Assigned 
+│   └── Output_Screenshot.png                       # Screenshot of Output
+│
 ├── DDL/                                # SQL scripts for schema creation and constraints
 │   ├── create_tables.sql               # Script for creating tables
 │   ├── insert_data.sql                 # Script for populating tables with initial data
 │   └── constraints.sql                 # Script for adding constraints
+│
 ├── Data/                               # Sample datasets used for testing
-|   ├── Data Files/                     # Data File for data poplation
-|   |     ├── author_data.sql           # SQL Scripts to populate author data
-|   |     ├── borrowing_data.sql        # SQL Scripts to populate borrowing data
-|   |     ├── fee_policy_data.sql       # SQL Scripts to populate fee policy data
-|   |     ├── publishers_data.sql       # SQL Scripts to populate publishers data
-|   |     ├── resource_data.sql         # SQL Scripts to populate resource data
-|   |     └── user_data.sql             # SQL Scripts to populate user data
-|   ├── Scripts/                        # Python Scripts to generate data
-|   |     ├── author_data_generator.py         #Python Scripts to generate author data
-|   |     ├── borrowing_data_generator.py      #Python Scripts to generate author data
-|   |     ├── fee_policy_data_generator.py     #Python Scripts to generate author data
-|   |     ├── publishers_data_generator.py     #Python Scripts to generate author data
-|   |     ├── resource_data_generator.py       #Python Scripts to generate author data
-|   |     └── user_data_generator.py           #Python Scripts to generate author data
+│   ├── Data Files/                     # Data File for data poplation
+│   │     ├── author_data.sql           # SQL Scripts to populate author data
+│   │     ├── borrowing_data.sql        # SQL Scripts to populate borrowing data
+│   │     ├── fee_policy_data.sql       # SQL Scripts to populate fee policy data
+│   │     ├── publishers_data.sql       # SQL Scripts to populate publishers data
+│   │     ├── resource_data.sql         # SQL Scripts to populate resource data
+│   │     └── user_data.sql             # SQL Scripts to populate user data
+│   │
+│   ├── Scripts/                               # Python Scripts to generate data
+│   │     ├── author_data_generator.py         # Python Scripts to generate author data
+│   │     ├── borrowing_data_generator.py      # Python Scripts to generate borrowing data
+│   │     ├── fee_policy_data_generator.py     # Python Scripts to generate fee policy data
+│   │     ├── publishers_data_generator.py     # Python Scripts to generate publishers data
+│   │     ├── resource_data_generator.py       # Python Scripts to generate resource data
+│   │     └── user_data_generator.py           # Python Scripts to generate user data
+│   │
 │   └── sample_data.csv                  # Sample data for resources
+│
 ├── Documentation/                       # Project documentation and resources
 │   ├── Relational_Schema_Diagram.png    # Visual representation of the database schema
 │   ├── final_report.md                  # Final project detailed report
@@ -153,25 +171,30 @@ Project_Part5
 │   ├── setup_guide.md                   # Instructions for setting up the database
 │   ├── testing_report.md                # Testing procedures and results
 │   └── data_dictionary.md               # Detailed description of database entities and attributes
+│   
 ├── Queries/                                       # SQL queries
 │   ├── Borrowing_Management/                      # Queries to manage borrowing 
-|   |    ├── apply_late_fees.sql                   # Queries for applying late fees
-|   |    ├── checkout_resource.sql                 # Queries for checking out resources
-|   |    └── return_resource.sql                   # Queries for returning resources
+│   │    ├── apply_late_fees.sql                   # Queries for applying late fees
+│   │    ├── checkout_resource.sql                 # Queries for checking out resources
+│   │    └── return_resource.sql                   # Queries for returning resources
+│   │
 │   ├── Resource_Management/                       # Queries to manage resoources
-|   |    ├── add_new_resource.sql                  # Queries for adding new resources
-|   |    ├── remove_resource.sql                   # Queries for removing resources
-|   |    └── update_avaialble_copies.sql           # Queries for updating avaialble copies
+│   │    ├── add_new_resource.sql                  # Queries for adding new resources
+│   │    ├── remove_resource.sql                   # Queries for removing resources
+│   │    └── update_avaialble_copies.sql           # Queries for updating avaialble copies
+│   │
 │   ├── User_Management/                           # Queries to manage users
-|   |    ├── add_user.sql                          # Queries to add users
-|   |    ├── delete_user.sql                       # Queries to delete users
-|   |    └── set_user_role.sql                     # Queries to set user roles
+│   │    ├── add_user.sql                          # Queries to add users
+│   │    ├── delete_user.sql                       # Queries to delete users
+│   │    └── set_user_role.sql                     # Queries to set user roles
+│   │
 │   └── Search_and_Reports/                        # Queries to manage searches and reports
-|        ├── overdue_items_report.sql              # Queries for over due items report
-|        ├── resource_availability_report.sql      # Queries for resource availability report
-|        ├── resource_usage_report.sql             # Queries for usage report
-|        ├── top_ten_borrowed_resources_report.sql # Queries for top ten borrowed report
-|        └── user_borrowing_history_report.sql     # Queries for user borrowing history report
+│        ├── overdue_items_report.sql              # Queries for over due items report
+│        ├── resource_availability_report.sql      # Queries for resource availability report
+│        ├── resource_usage_report.sql             # Queries for usage report
+│        ├── top_ten_borrowed_resources_report.sql # Queries for top ten borrowed report
+│        └── user_borrowing_history_report.sql     # Queries for user borrowing history report
+│
 └── README.md             # Entry Point Documentation (Refer to Documentation.pdf for detailed documentation, final_report.md for a
                             detailed final report)
 ```
