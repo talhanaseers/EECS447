@@ -38,11 +38,11 @@ Project_Part5
 |   |     └── user_data.sql             # SQL Scripts to populate user data
 |   ├── Scripts/                        # Python Scripts to generate data
 |   |     ├── author_data_generator.py         #Python Scripts to generate author data
-|   |     ├── borrowing_data_generator.py      #Python Scripts to generate author data
-|   |     ├── fee_policy_data_generator.py     #Python Scripts to generate author data
-|   |     ├── publishers_data_generator.py     #Python Scripts to generate author data
-|   |     ├── resource_data_generator.py       #Python Scripts to generate author data
-|   |     └── user_data_generator.py           #Python Scripts to generate author data
+|   |     ├── borrowing_data_generator.py      #Python Scripts to generate borrowing data
+|   |     ├── fee_policy_data_generator.py     #Python Scripts to generate fee policy data
+|   |     ├── publishers_data_generator.py     #Python Scripts to generate publishers data
+|   |     ├── resource_data_generator.py       #Python Scripts to generate resource data
+|   |     └── user_data_generator.py           #Python Scripts to generate user data
 │   └── sample_data.csv                  # Sample data for resources
 ├── Documentation/                       # Project documentation and resources
 │   ├── Relational_Schema_Diagram.png    # Visual representation of the database schema
