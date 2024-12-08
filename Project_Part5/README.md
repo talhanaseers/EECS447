@@ -25,18 +25,18 @@ The Library Management System (LMS) database is a relational structure designed 
 ```
 Project_Part5
 │
-├── Additional Queries (Assigned December 5)/
-│   ├── Fine_Calculation.sql
-│   ├── Book_Availability.sql
-│   ├── Frequent_Borrowers_of_a_Specific_Genre.sql
-│   ├── Books_Due_Soon.sql
-│   ├── Members_with_Overdue_Books.sql
-│   ├── Average_Borrowing_Time.sql
-│   └── Most_Popular_Author_in_the_Last_Month.sql
+├── Additional Queries (Assigned December 5)/       # Additional SQL Queries (Alternative to live team demos — Assigned December 5, 2024)
+│   ├── Fine_Calculation.sql                        # Additional SQL Query
+│   ├── Book_Availability.sql                       # Additional SQL Query
+│   ├── Frequent_Borrowers_of_a_Specific_Genre.sql  # Additional SQL Query
+│   ├── Books_Due_Soon.sql                          # Additional SQL Query
+│   ├── Members_with_Overdue_Books.sql              # Additional SQL Query
+│   ├── Average_Borrowing_Time.sql                  # Additional SQL Query
+│   └── Most_Popular_Author_in_the_Last_Month.sql   # Additional SQL Query
 │
-├── SQL Report (Assigned December 5)/
-│   ├── Operational_Efficiency_Report.md
-│   └── Output_Screenshot.png
+├── SQL Report (Assigned December 5)/               # SQL Report and Output Screenshot (Alternative to live team demos — Assigned December 5, 2024)
+│   ├── Operational_Efficiency_Report.md            # Operational Efficiency Report Assigned 
+│   └── Output_Screenshot.png                       # Screenshot of Output
 │
 ├── DDL/                                # SQL scripts for schema creation and constraints
 │   ├── create_tables.sql               # Script for creating tables
@@ -52,13 +52,13 @@ Project_Part5
 │   │     ├── resource_data.sql         # SQL Scripts to populate resource data
 │   │     └── user_data.sql             # SQL Scripts to populate user data
 │   │
-│   ├── Scripts/                        # Python Scripts to generate data
-│   │     ├── author_data_generator.py         #Python Scripts to generate author data
-│   │     ├── borrowing_data_generator.py      #Python Scripts to generate borrowing data
-│   │     ├── fee_policy_data_generator.py     #Python Scripts to generate fee policy data
-│   │     ├── publishers_data_generator.py     #Python Scripts to generate publishers data
-│   │     ├── resource_data_generator.py       #Python Scripts to generate resource data
-│   │     └── user_data_generator.py           #Python Scripts to generate user data
+│   ├── Scripts/                               # Python Scripts to generate data
+│   │     ├── author_data_generator.py         # Python Scripts to generate author data
+│   │     ├── borrowing_data_generator.py      # Python Scripts to generate borrowing data
+│   │     ├── fee_policy_data_generator.py     # Python Scripts to generate fee policy data
+│   │     ├── publishers_data_generator.py     # Python Scripts to generate publishers data
+│   │     ├── resource_data_generator.py       # Python Scripts to generate resource data
+│   │     └── user_data_generator.py           # Python Scripts to generate user data
 │   │
 │   └── sample_data.csv                  # Sample data for resources
 │
