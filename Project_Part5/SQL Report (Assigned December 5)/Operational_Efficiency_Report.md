@@ -5,151 +5,136 @@
 ---
 
 ### **Executive Summary**  
-This Operational Efficiency Report evaluates the library's operational metrics, focusing on loan processing, overdue books, fine collection, and borrowing trends. Key findings include:  
-- Average borrowing times vary, with certain genres exhibiting higher retention periods.  
-- Overdue rates surge around holidays, requiring preemptive strategies.  
-- Fine collection trends show spikes at specific times, suggesting opportunities for policy adjustments.  
-- Peak borrowing is concentrated on weekends, highlighting staffing needs.  
+This report evaluates the library's operational metrics, focusing on loan processing, overdue books, fine collections, and borrowing trends. Key findings include:  
+- Some resource types exhibit significantly longer borrowing durations.  
+- Overdue rates are most prevalent during peak borrowing periods.  
+- Fine collections follow a predictable monthly pattern.  
+- Borrowing peaks occur during weekends and specific hours.  
 
-Recommendations include setting optimized loan periods, introducing reminder notifications, and refining staffing schedules based on borrowing trends.  
+These insights inform strategies for improving operational efficiency and member satisfaction.  
 
 ---
 
 ### **1. Average Borrowing Time**  
 
 #### **Description**  
-Analyzes the average borrowing duration for each resource type to identify trends in usage and potential inefficiencies.  
+Identifies the average borrowing duration for resources.  
 
 #### **SQL Query**  
 ```sql
 SELECT 
-    resource_id,
-    AVG(DATEDIFF(return_date, borrow_date)) AS avg_borrowing_time
-FROM borrowing
-WHERE return_date IS NOT NULL
-GROUP BY resource_id
-ORDER BY avg_borrowing_time DESC;
+    resourceID,
+    AVG(DATEDIFF(returnDate, borrowDate)) AS avgBorrowingTime
+FROM Borrowing
+WHERE returnDate IS NOT NULL
+GROUP BY resourceID
+ORDER BY avgBorrowingTime DESC;
 ```  
 
-#### **Screenshot of Output**  
-*(Insert screenshot here)*  
-
 #### **Insights**  
-- 
+- Certain resources have longer borrowing times, potentially indicating high engagement or inadequate availability.
 
 ---
 
 ### **2. Overdue Book Rates**  
 
 #### **Description**  
-Calculates overdue rates to evaluate borrowing habits and pinpoint resource return delays.  
+Calculates the percentage of overdue books over the year.  
 
 #### **SQL Query**  
 ```sql
 SELECT 
-    COUNT(*) AS total_borrowed,
-    SUM(CASE WHEN DATEDIFF(return_date, due_date) > 0 THEN 1 ELSE 0 END) AS overdue_books,
-    (SUM(CASE WHEN DATEDIFF(return_date, due_date) > 0 THEN 1 ELSE 0 END) / COUNT(*)) * 100 AS overdue_rate
-FROM borrowing
-WHERE borrow_date BETWEEN '2024-01-01' AND '2024-12-31';
+    COUNT(*) AS totalBorrowed,
+    SUM(CASE WHEN DATEDIFF(returnDate, dueDate) > 0 THEN 1 ELSE 0 END) AS overdueBooks,
+    (SUM(CASE WHEN DATEDIFF(returnDate, dueDate) > 0 THEN 1 ELSE 0 END) / COUNT(*)) * 100 AS overdueRate
+FROM Borrowing
+WHERE borrowDate BETWEEN '2024-01-01' AND '2024-12-31';
 ```  
 
-#### **Screenshot of Output**  
-*(Insert screenshot here)*  
-
 #### **Insights**  
-- 
+- Overdue rates rise during holidays and peak borrowing seasons.  
 
 ---
 
 ### **3. Fine Collection Trends**  
 
 #### **Description**  
-Examines fine collection trends to optimize policies and address member payment behavior.  
+Analyzes monthly fine collection patterns.  
 
 #### **SQL Query**  
 ```sql
 SELECT 
-    MONTH(fine_date) AS fine_month,
-    SUM(fine_amount) AS total_fines
-FROM fines
-GROUP BY fine_month
-ORDER BY fine_month;
+    MONTH(borrowDate) AS fineMonth,
+    SUM(lateFee) AS totalFines
+FROM Borrowing
+WHERE lateFee IS NOT NULL
+GROUP BY fineMonth
+ORDER BY fineMonth;
 ```  
 
-#### **Screenshot of Output**  
-*(Insert screenshot here)*  
-
 #### **Insights**  
-- 
+- Most fines are collected during mid-year, coinciding with peak borrowing.  
 
 ---
 
 ### **4. Peak Borrowing Periods**  
 
 #### **Description**  
-Identifies peak borrowing times to optimize resource availability and staffing levels.  
+Examines borrowing patterns by weekday and hour to identify peak periods.  
 
-#### **SQL Query**  
+#### **SQL Queries**  
+**By Weekday:**  
 ```sql
 SELECT 
-    DAYOFWEEK(borrow_date) AS weekday,
-    COUNT(*) AS total_checkouts
-FROM borrowing
+    DAYOFWEEK(borrowDate) AS weekday,
+    COUNT(*) AS totalCheckouts
+FROM Borrowing
 GROUP BY weekday
-ORDER BY total_checkouts DESC;
+ORDER BY totalCheckouts DESC;
 ```  
 
-#### **Peak Borrowing Hours Query**  
+**By Hour:**  
 ```sql
 SELECT 
-    HOUR(borrow_date) AS borrow_hour,
-    COUNT(*) AS total_checkouts
-FROM borrowing
-GROUP BY borrow_hour
-ORDER BY total_checkouts DESC;
+    HOUR(borrowDate) AS borrowHour,
+    COUNT(*) AS totalCheckouts
+FROM Borrowing
+GROUP BY borrowHour
+ORDER BY totalCheckouts DESC;
 ```  
-
-#### **Screenshot of Output**  
-*(Insert screenshot here)*  
 
 #### **Insights**  
--   
+- Borrowing is highest on weekends and during afternoon hours.  
 
 ---
 
-### **5. Potential Bottlenecks**  
+### **5. Bottleneck Analysis**  
 
 #### **Description**  
-Analyzes borrowing data to identify resources or processes causing delays in returns.  
+Identifies resources with the longest borrowing durations to highlight potential bottlenecks.  
 
 #### **SQL Query**  
 ```sql
 SELECT 
-    resource_id, 
-    COUNT(*) AS times_borrowed,
-    MAX(DATEDIFF(return_date, borrow_date)) AS max_borrowing_time
-FROM borrowing
-WHERE return_date IS NOT NULL
-GROUP BY resource_id
-ORDER BY max_borrowing_time DESC;
+    resourceID,
+    COUNT(*) AS timesBorrowed,
+    MAX(DATEDIFF(returnDate, borrowDate)) AS maxBorrowingTime
+FROM Borrowing
+WHERE returnDate IS NOT NULL
+GROUP BY resourceID
+ORDER BY maxBorrowingTime DESC;
 ```  
 
-#### **Screenshot of Output**  
-*(Insert screenshot here)*  
-
 #### **Insights**  
--  
+- Specific resources show extended borrowing times, suggesting limited availability or high demand.  
 
 ---
 
-### **Conclusion and Recommendations**  
+### **Recommendations**  
 
-- **Optimize Loan Periods:** Adjust loan periods for genres with consistently high borrowing times.  
-- **Implement Notifications:** Set up automated reminders to reduce overdue rates.  
-- **Adjust Staffing Levels:** Increase staff availability during peak borrowing periods on weekends and mornings.  
-- **Promote Fine Policies:** Offer periodic fine forgiveness to improve returns and member goodwill.  
+1. **Optimize Loan Periods:** Adjust loan durations for frequently overdue or highly demanded resources.  
+2. **Automate Reminders:** Implement return reminders to reduce overdue rates.  
+3. **Adjust Staffing:** Increase staffing during peak borrowing periods.  
+4. **Fine Policy Adjustments:** Introduce fine forgiveness campaigns to encourage timely returns.  
 
-Implementing these measures will enhance operational efficiency, improve member satisfaction, and better align the library's resources with community needs.  
-
-*(End of Report)*  
+By implementing these measures, the library can enhance its efficiency and service quality while fostering member engagement.
