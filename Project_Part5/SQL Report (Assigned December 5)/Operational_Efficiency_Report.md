@@ -32,7 +32,9 @@ ORDER BY avgBorrowingTime DESC;
 ```  
 
 #### **Insights**  
-- Certain resources have longer borrowing times, potentially indicating high engagement or inadequate availability.
+Refer to `average_borrowing_time.png` in the repository:  
+- Resource `4033` has an average borrowing time of **348 days**, indicating a highly engaged or limited availability resource.  
+- Other resources with significantly high borrowing times include `4695`, `4696`, and `5198`, all averaging **45 days**.  
 
 ---
 
@@ -52,7 +54,8 @@ WHERE borrowDate BETWEEN '2024-01-01' AND '2024-12-31';
 ```  
 
 #### **Insights**  
-- Overdue rates rise during holidays and peak borrowing seasons.  
+Refer to `overdue_book_rates.png` in the repository:  
+- Out of **5,553 borrowed items**, **2,077** were overdue, resulting in an overdue rate of **37.40%**, highlighting the need for interventions like automated reminders.  
 
 ---
 
@@ -73,7 +76,8 @@ ORDER BY fineMonth;
 ```  
 
 #### **Insights**  
-- Most fines are collected during mid-year, coinciding with peak borrowing.  
+Refer to `fine_collection_trends.png` in the repository:  
+- Monthly fines vary significantly, with the highest collections in January and the lowest in June.  
 
 ---
 
@@ -104,7 +108,9 @@ ORDER BY totalCheckouts DESC;
 ```  
 
 #### **Insights**  
-- Borrowing is highest on weekends and during afternoon hours.  
+Refer to `peak_borrowing_periods.png` in the repository:  
+- The busiest borrowing day is **Sunday (weekday 1)**, with **899 total checkouts**, followed by **Saturday (weekday 7)** with **878 checkouts**.  
+- Borrowing peaks during **midnight (borrowHour 0)** with **6,003 total checkouts**, indicating a preference for late-night borrowing.  
 
 ---
 
@@ -126,7 +132,8 @@ ORDER BY maxBorrowingTime DESC;
 ```  
 
 #### **Insights**  
-- Specific resources show extended borrowing times, suggesting limited availability or high demand.  
+Refer to `bottleneck_analysis.png` in the repository:  
+- Resource `4033` had the longest borrowing duration, spanning **6519 days**.  
 
 ---
 
@@ -137,4 +144,4 @@ ORDER BY maxBorrowingTime DESC;
 3. **Adjust Staffing:** Increase staffing during peak borrowing periods.  
 4. **Fine Policy Adjustments:** Introduce fine forgiveness campaigns to encourage timely returns.  
 
-By implementing these measures, the library can enhance its efficiency and service quality while fostering member engagement.
+By implementing these measures, the library can enhance its efficiency and service quality while fostering member engagement.  
