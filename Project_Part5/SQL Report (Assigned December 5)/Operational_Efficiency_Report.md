@@ -13,6 +13,9 @@ This report evaluates the library's operational metrics, focusing on loan proces
 
 These insights inform strategies for improving operational efficiency and member satisfaction.  
 
+##### Please find five screenshots relevant to the SQL Queries in this report within the same repository as this report. 
+
+
 ---
 
 ### **1. Average Borrowing Time**  
