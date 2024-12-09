@@ -27,16 +27,27 @@ Project_Part5
 │
 ├── Additional Queries (Assigned December 5)/       # Additional SQL Queries (Alternative to live team demos — Assigned December 5, 2024)
 │   ├── Fine_Calculation.sql                        # Additional SQL Query
+│   ├── FineCalculation.png                         # Additional SQL Query Screenshot
 │   ├── Book_Availability.sql                       # Additional SQL Query
+│   ├── BookAvailability.png                        # Additional SQL Query Screenshot
 │   ├── Frequent_Borrowers_of_a_Specific_Genre.sql  # Additional SQL Query
+│   ├── FrequentBorrowersOfSameGenre.png            # Additional SQL Query Screenshot
 │   ├── Books_Due_Soon.sql                          # Additional SQL Query
+│   ├── BooksDueSoon.png                            # Additional SQL Query Screenshot
 │   ├── Members_with_Overdue_Books.sql              # Additional SQL Query
+│   ├── MembersWithOverdueBooks.png                 # Additional SQL Query Screenshot
 │   ├── Average_Borrowing_Time.sql                  # Additional SQL Query
+│   ├── AverageBorrowingTime.png                    # Additional SQL Query Screenshot
+│   ├── MostPopularAuthorInTheLastMonth.png         # Additional SQL Query Screenshot
 │   └── Most_Popular_Author_in_the_Last_Month.sql   # Additional SQL Query
 │
 ├── SQL Report (Assigned December 5)/               # SQL Report and Output Screenshot (Alternative to live team demos — Assigned December 5, 2024)
-│   ├── Operational_Efficiency_Report.md            # Operational Efficiency Report Assigned 
-│   └── Output_Screenshot.png                       # Screenshot of Output
+│   ├── Operational_Efficiency_Report.md            # Operational Efficiency Report Assigned
+│   ├── average_borrowing_time.png                  # Screenshot of query output from SQL Report
+│   ├── bottleneck_analysis.png                     # Screenshot of query output from SQL Report
+│   ├── fine_collection_trends.png                  # Screenshot of query output from SQL Report
+│   ├── overdue_book_rates.png                      # Screenshot of query output from SQL Report
+│   └── peak_borrowing_periods.png                  # Screenshot of query output from SQL Report
 │
 ├── DDL/                                # SQL scripts for schema creation and constraints
 │   ├── create_tables.sql               # Script for creating tables
